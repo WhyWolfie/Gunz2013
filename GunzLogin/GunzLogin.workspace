@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="GunzLogin" Database="./GunzLogin.tags">
+  <Project Name="GunzLogin" Path="GunzLogin.project" Active="Yes"/>
+  <Project Name="LaunchGame" Path="LaunchGame/LaunchGame.project"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="no">
+      <Project Name="GunzLogin" ConfigName="Debug"/>
+      <Project Name="LaunchGame" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="GunzLogin" ConfigName="Release"/>
+      <Project Name="LaunchGame" ConfigName="Release_Silent"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
