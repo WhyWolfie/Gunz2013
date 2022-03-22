@@ -1,0 +1,62 @@
+<XML>
+		<!-- relay map. -->
+	<RELAYMAP_INDEX>22</RELAYMAP_INDEX>
+
+	<GENERAL>
+		<!-- general map. -->
+		<MAP id="0" name="Mansion" default="true" />
+		<MAP id="1" name="Prison" />
+		<MAP id="2" name="Station" />
+		<MAP id="3" name="Prison II" />
+		<MAP id="4" name="Battle Arena" />
+		<MAP id="5" name="Town" />
+		<MAP id="6" name="Dungeon" />
+		<MAP id="7" name="Ruin" />
+		<MAP id="8" name="Island" />
+		<MAP id="9" name="Garden" />
+		<MAP id="10" name="Castle" />
+		<MAP id="11" name="Factory" />
+		<MAP id="12" name="Port" />
+		<MAP id="13" name="Lost Shrine" />
+		<MAP id="14" name="Stairway" />
+		<MAP id="15" name="Snow_Town" />
+		<MAP id="16" name="Hall" />
+		<MAP id="17" name="Catacomb" />
+		<MAP id="18" name="Jail" />
+		<MAP id="19" name="Shower Room" />
+		<MAP id="20" name="High_Haven" />
+		<MAP id="21" name="Citadel" />
+		<MAP id="22" name="RelayMap" />
+		<MAP id="23" name="Halloween Town" />
+		<MAP id="24" name="WeaponShop" />
+		<MAP id="25" name="BlitzKrieg" />
+	</GENERAL>
+
+	<DUEL>
+		<!-- duel map. -->
+		<MAP id="0" name="Hall" default="true" />
+		<MAP id="1" name="Catacomb" />
+		<MAP id="2" name="Jail" />
+		<MAP id="3" name="Shower Room" />
+	</DUEL>
+
+	<QUEST>
+		<!-- quest map. -->
+		<MAP id="0" name="Mansion" default="true" />
+		<MAP id="1" name="Prison" />
+		<MAP id="6" name="Dungeon" />
+	</QUEST>
+
+	<CHALLENGEQUEST>
+		<!-- challenge quest map. -->
+		<MAP id="0" name="[Lv. 1] Rebel Arsenal" default="true" />
+		<MAP id="0" name="[Lv.21] Rebel Secret Base" />
+		<MAP id="0" name="[Lv.41] Rebel Command post" />
+		<MAP id="0" name="[Lv.61] Suppress the Rebellion" />
+		<MAP id="1" name="[Lv.11] Test Room C" />
+		<MAP id="1" name="[Lv.31] Test Room B" />
+		<MAP id="1" name="[Lv.51] Test Room A" />
+		<MAP id="1" name="[Lv.71] Secret Test Room" />
+	</CHALLENGEQUEST>
+
+</XML>

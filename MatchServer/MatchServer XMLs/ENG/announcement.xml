@@ -1,0 +1,20 @@
+<XML>
+	<ANNOUNCECONFIG use="true" announce_id="0" />
+
+	<ANNOUNCEMENT id="0">
+		<ANNOUNCE text="Thank you for playing our server!" waitsec="0" />
+		<ANNOUNCE text="This server is currently on beta stage." waitsec="0" />
+		<ANNOUNCE text="If you got any questions or opinions, please check our forum." waitsec="0" />
+		<ANNOUNCE text="NULL" waitsec="1800" />
+	</ANNOUNCEMENT>
+
+	<ANNOUNCEMENT id="1">
+		<ANNOUNCE text="If you need some more informations about this server, visit our homepage." waitsec="3600" />
+	</ANNOUNCEMENT>
+
+	<ANNOUNCEMENT id="2">
+		<ANNOUNCE text="GunZ summer event is scheduled on July 28th (UTC +9)." waitsec="4" />
+		<ANNOUNCE text="We'll tell you more event details via homepage. Thanks!" waitsec="0" />
+		<ANNOUNCE text="NULL" waitsec="3600" />
+	</ANNOUNCEMENT>
+</XML>

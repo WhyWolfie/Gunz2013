@@ -1,0 +1,34 @@
+<XML>
+	<DEFAULTRULENAME>novice</DEFAULTRULENAME>
+	<DEFAULTRULEID>0</DEFAULTRULEID>
+	
+	<!-- 
+		Channel Types can be : 
+		   - General
+		   - Duel Tournament
+		   - Classic
+		   - BlitzKrieg
+	 -->
+
+
+	<CHANNEL name="Free Channel 1" maxplayer="200" rule="novice" ruleid="0" type="General" />
+	<CHANNEL name="Free Channel 2" maxplayer="200" rule="novice" ruleid="0" type="General" />
+	<CHANNEL name="Free Channel 3" maxplayer="200" rule="novice" ruleid="0" type="General" />
+	<CHANNEL name="Free Channel 4" maxplayer="200" rule="novice" ruleid="0" type="General" />
+	<CHANNEL name="Free Channel 5" maxplayer="200" rule="novice" ruleid="0" type="General" />
+	<CHANNEL name="Free Channel 6" maxplayer="200" rule="novice" ruleid="0" type="General" />
+
+	<!-- <CHANNEL name="Questing Channel" maxplayer="100" rule="quest" ruleid="6" type="General" /> -->
+
+	<CHANNEL name="Duel Tournament Channel 1" maxplayer="200" rule="dueltournament" ruleid="7" type="Duel Tournament" />
+	<CHANNEL name="Duel Tournament Channel 2" maxplayer="200" rule="dueltournament" ruleid="7" type="Duel Tournament" />
+	<CHANNEL name="Duel Tournament Channel 3" maxplayer="200" rule="dueltournament" ruleid="7" type="Duel Tournament" />
+	<CHANNEL name="Duel Tournament Channel 4" maxplayer="200" rule="dueltournament" ruleid="7" type="Duel Tournament" />
+
+	<CHANNEL name="Classic Channel 1" maxplayer="200" rule="classic" ruleid="8" type="Classic" />
+	<CHANNEL name="Classic Channel 2" maxplayer="200" rule="classic" ruleid="8" type="Classic" />
+
+	<CHANNEL name="BlitzKrieg Channel 1" maxplayer="200" rule="blitz" ruleid="9" type="BlitzKrieg" />
+	<CHANNEL name="BlitzKrieg Channel 2" maxplayer="200" rule="blitz" ruleid="9" type="BlitzKrieg" />
+	<CHANNEL name="BlitzKrieg Channel 3" maxplayer="200" rule="blitz" ruleid="9" type="BlitzKrieg" />
+</XML>

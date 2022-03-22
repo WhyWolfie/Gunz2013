@@ -1,0 +1,265 @@
+<XML>
+	<EXPRATE value="40" bp_value="32"/>
+
+	<SCENARIO map_id="101" map_name="[Lv. 1] Rebel Arsenal" reward_itemid="3000101" player="4">
+		<EXP value="200" bp_value="40"/>
+		<SECTORLIST>
+			<SECTOR>
+				<ACTOR name="knifeman" pos="0" num="4" inc="1"/>
+				<ACTOR name="rifleman" pos="1" num="2" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="rifleman" pos="0" num="4" inc="1"/>
+				<ACTOR name="knifeman" pos="1" num="2" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="hunter" pos="0" num="3" inc="1"/>
+				<ACTOR name="rifleman" pos="1" num="3" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="knifeman2" pos="0" num="4" inc="1"/>
+				<ACTOR name="hunter" pos="1" num="5" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="knifeman2" pos="0" num="3" inc="1"/>
+				<ACTOR name="rifleman" pos="1" num="3" inc="1"/>
+				<ACTOR name="hunter2" pos="2" num="2" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="knifeman2" pos="0" num="2" inc="1"/>
+				<ACTOR name="rifleman" pos="1" num="2" inc="1"/>
+				<ACTOR name="rifleman" pos="2" num="2" inc="1"/>
+				<ACTOR name="robot" pos="3" num="1" adjustplayernum="true"/>
+			</SECTOR>
+		</SECTORLIST>
+	</SCENARIO>
+
+	<SCENARIO map_id="201" map_name="[Lv.21] Rebel Secret Base" reward_itemid="3000201" player="4">
+		<EXP value="600" bp_value="80"/>
+		<SECTORLIST>
+			<SECTOR>
+				<ACTOR name="knifeman2" pos="0" num="3" inc="1"/>
+				<ACTOR name="hunter" pos="1" num="3" inc="1"/>
+				<ACTOR name="hunter3" pos="2" num="1" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="rifleman2" pos="0" num="5" inc="1"/>
+				<ACTOR name="hunter" pos="1" num="2" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="hunter2" pos="0" num="6" inc="2"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="knifeman2" pos="0" num="4" inc="1"/>
+				<ACTOR name="hunter2" pos="1" num="2" inc="1"/>
+				<ACTOR name="rifleman2" pos="2" num="3" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="rifleman3" pos="0" num="2" inc="1"/>
+				<ACTOR name="hunter2" pos="1" num="5" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="rifleman2" pos="0" num="2" inc="1"/>
+				<ACTOR name="hunter2" pos="1" num="4" inc="1"/>
+				<ACTOR name="psychic" pos="2" num="1" adjustplayernum="true"/>
+			</SECTOR>
+		</SECTORLIST>
+	</SCENARIO>
+
+	<SCENARIO map_id="301" map_name="[Lv.41] Rebel Command post" reward_itemid="3000301" player="4">
+		<EXP value="1800" bp_value="160"/>
+		<SECTORLIST>
+			<SECTOR>
+				<ACTOR name="rifleman3" pos="0" num="3" inc="1"/>
+				<ACTOR name="knifeman3" pos="1" num="5" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="knifeman3" pos="0" num="4" inc="1"/>
+				<ACTOR name="hunter2" pos="1" num="2" inc="1"/>
+				<ACTOR name="rifleman2" pos="2" num="2" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="hunter3" pos="0" num="5" inc="1"/>
+				<ACTOR name="rifleman3" pos="1" num="3" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="rifleman3" pos="0" num="3" inc="1"/>
+				<ACTOR name="hunter3" pos="1" num="2" inc="1"/>
+				<ACTOR name="knifeman3" pos="2" num="2" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="knifeman3" pos="0" num="2" inc="1"/>
+				<ACTOR name="hunter3" pos="1" num="5" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="knifeman3" pos="0" num="2" inc="1"/>
+				<ACTOR name="hunter3" pos="1" num="2" inc="1"/>
+				<ACTOR name="rifleman3" pos="2" num="2" inc="1"/>
+				<ACTOR name="general" pos="3" num="1" adjustplayernum="true"/>
+			</SECTOR>
+		</SECTORLIST>
+	</SCENARIO>
+
+	<SCENARIO map_id="401" map_name="[Lv.61] Suppress the Rebellion" reward_itemid="3000401" player="4">
+		<EXP value="5400" bp_value="240"/>
+		<SECTORLIST>
+			<SECTOR>
+				<ACTOR name="knifeman3" pos="0" num="5" inc="1"/>
+				<ACTOR name="hunter2" pos="1" num="4" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="rifleman" pos="0" num="6" inc="1"/>
+				<ACTOR name="robot" pos="1" num="2" adjustplayernum="true"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="hunter3" pos="0" num="8" inc="2"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="hunter2" pos="0" num="8" inc="2"/>
+				<ACTOR name="psychic" pos="1" num="1" adjustplayernum="true"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="knifeman3" pos="0" num="3" inc="1"/>
+				<ACTOR name="hunter3" pos="1" num="3" inc="1"/>
+				<ACTOR name="rifleman3" pos="2" num="3" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="hunter3" pos="0" num="6" inc="1"/>
+				<ACTOR name="psychic" pos="1" num="1" adjustplayernum="true"/>
+				<ACTOR name="general" pos="2" num="1" adjustplayernum="true"/>
+			</SECTOR>
+		</SECTORLIST>
+	</SCENARIO>
+
+	<SCENARIO map_id="102" map_name="[Lv.11] Test Room C" reward_itemid="3000102" player="3">
+		<EXP value="340" bp_value="55"/>
+		<SECTORLIST>
+			<SECTOR>
+				<ACTOR name="charger" pos="0" num="2" inc="1"/>
+				<ACTOR name="charger" pos="1" num="2" inc="1"/>
+				<ACTOR name="shooter" pos="2" num="2" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="charger" pos="0" num="3" inc="1"/>
+				<ACTOR name="shooter" pos="1" num="2" inc="1"/>
+				<ACTOR name="shooter" pos="2" num="2" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="charger" pos="0" num="3" inc="1"/>
+				<ACTOR name="shooter" pos="1" num="3" inc="1"/>
+				<ACTOR name="disposer" pos="2" num="3" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="charger" pos="0" num="3" inc="1"/>
+				<ACTOR name="charger" pos="1" num="3" inc="1"/>
+				<ACTOR name="charger2" pos="2" num="2" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="shooter" pos="0" num="3" inc="1"/>
+				<ACTOR name="shooter" pos="1" num="3" inc="1"/>
+				<ACTOR name="disposer2" pos="2" num="3" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="chaser" pos="0" num="1" adjustplayernum="true"/>
+			</SECTOR>
+		</SECTORLIST>
+	</SCENARIO>
+
+	<SCENARIO map_id="202" map_name="[Lv.31] Test Room B" reward_itemid="3000202" player="3">
+		<EXP value="1020" bp_value="112"/>
+		<SECTORLIST>
+			<SECTOR>
+				<ACTOR name="shooter2" pos="0" num="2" inc="1"/>
+				<ACTOR name="shooter2" pos="1" num="2" inc="1"/>
+				<ACTOR name="shooter2" pos="2" num="2" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="disposer2" pos="0" num="2" inc="1"/>
+				<ACTOR name="disposer2" pos="1" num="2" inc="1"/>
+				<ACTOR name="charger2" pos="2" num="2" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="charger2" pos="0" num="3" inc="1"/>
+				<ACTOR name="shooter2" pos="1" num="2" inc="1"/>
+				<ACTOR name="shooter2" pos="2" num="2" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="charger2" pos="0" num="3" inc="1"/>
+				<ACTOR name="shooter3" pos="1" num="2" inc="1"/>
+				<ACTOR name="charger2" pos="2" num="3" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="charger2" pos="0" num="3" inc="1"/>
+				<ACTOR name="shooter2" pos="1" num="3" inc="1"/>
+				<ACTOR name="disposer2" pos="2" num="3" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="tower" pos="0" num="1" adjustplayernum="true"/>
+			</SECTOR>
+		</SECTORLIST>
+	</SCENARIO>
+
+	<SCENARIO map_id="302" map_name="[Lv.51] Test Room A" reward_itemid="3000302" player="3">
+		<EXP value="3060" bp_value="200"/>
+		<SECTORLIST>
+			<SECTOR>
+				<ACTOR name="disposer3" pos="0" num="2" inc="1"/>
+				<ACTOR name="disposer3" pos="1" num="2" inc="1"/>
+				<ACTOR name="shooter2" pos="2" num="3" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="charger2" pos="0" num="3" inc="1"/>
+				<ACTOR name="charger3" pos="1" num="3" inc="1"/>
+				<ACTOR name="charger2" pos="2" num="3" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="charger3" pos="0" num="3" inc="1"/>
+				<ACTOR name="shooter3" pos="1" num="3" inc="1"/>
+				<ACTOR name="disposer3" pos="2" num="3" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="disposer3" pos="0" num="3" inc="1"/>
+				<ACTOR name="shooter3" pos="1" num="3" inc="1"/>
+				<ACTOR name="shooter3" pos="2" num="3" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="charger3" pos="0" num="3" inc="1"/>
+				<ACTOR name="charger3" pos="1" num="3" inc="1"/>
+				<ACTOR name="disposer3" pos="2" num="3" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="assassin" pos="0" num="1" adjustplayernum="true"/>
+			</SECTOR>
+		</SECTORLIST>
+	</SCENARIO>
+
+	<SCENARIO map_id="402" map_name="[Lv.71] Secret Test Room" reward_itemid="3000402" player="3">
+		<EXP value="9180" bp_value="300"/>
+		<SECTORLIST>
+			<SECTOR>
+				<ACTOR name="shooter3" pos="0" num="3" inc="1"/>
+				<ACTOR name="shooter3" pos="1" num="3" inc="1"/>
+				<ACTOR name="shooter3" pos="2" num="3" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="chaserhc" pos="0" num="1" adjustplayernum="true"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="charger3" pos="0" num="3" inc="1"/>
+				<ACTOR name="charger3" pos="1" num="3" inc="1"/>
+				<ACTOR name="shooter3" pos="2" num="3" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="towerhc" pos="0" num="1" adjustplayernum="true"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="charger3" pos="0" num="3" inc="1"/>
+				<ACTOR name="charger3" pos="1" num="3" inc="1"/>
+				<ACTOR name="charger3" pos="2" num="3" inc="1"/>
+			</SECTOR>
+			<SECTOR>
+				<ACTOR name="assassinhc" pos="0" num="1" adjustplayernum="true"/>
+			</SECTOR>
+		</SECTORLIST>
+	</SCENARIO>
+</XML>
