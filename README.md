@@ -28,3 +28,5 @@ Therefore, you need PostgreSQL and it's ODBC driver (32bit).
 
 6. About internal SQL queries :
 Because of my lacking SQL knowledge, the internals became bad.
+
+<b> Credits: aV3PQmCJjM9L </b>
