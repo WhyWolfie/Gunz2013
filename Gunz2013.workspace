@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Gunz2013" Database="./Gunz2013.tags">
+  <Environment>
+    <![CDATA[]]>
+  </Environment>
+  <Project Name="MatchServer" Path="MatchServer/MatchServer.project" Active="Yes"/>
+  <Project Name="Locator" Path="Locator/Locator.project" Active="No"/>
+  <Project Name="MatchAgent" Path="MatchAgent/MatchAgent.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="no">
+      <Project Name="MatchServer" ConfigName="Debug"/>
+      <Project Name="Locator" ConfigName="Debug"/>
+      <Project Name="MatchAgent" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="no">
+      <Project Name="MatchServer" ConfigName="Release"/>
+      <Project Name="Locator" ConfigName="Release"/>
+      <Project Name="MatchAgent" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Unix_Release" Selected="no">
+      <Project Name="Locator" ConfigName="Unix_Release"/>
+      <Project Name="MatchAgent" ConfigName="Unix_Release"/>
+      <Project Name="MatchServer" ConfigName="Unix_Release"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release_2012" Selected="no">
+      <Project Name="Locator" ConfigName="Release_2012"/>
+      <Project Name="MatchAgent" ConfigName="Release_2012"/>
+      <Project Name="MatchServer" ConfigName="Release_2012"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Debug_2012" Selected="yes">
+      <Project Name="Locator" ConfigName="Debug_2012"/>
+      <Project Name="MatchAgent" ConfigName="Debug_2012"/>
+      <Project Name="MatchServer" ConfigName="Debug_2012"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Debug_2013" Selected="no">
+      <Project Name="Locator" ConfigName="Debug_2013"/>
+      <Project Name="MatchAgent" ConfigName="Debug_2013"/>
+      <Project Name="MatchServer" ConfigName="Debug_2013"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
