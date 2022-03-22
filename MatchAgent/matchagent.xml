@@ -1,0 +1,12 @@
+<XML>
+	<AGENT>	<!-- Agent's listen address & port.  -->
+		<WANIP>111.64.86.252</WANIP>	<!-- Global IP address that telled to client, not LAN IP. -->
+		<TCPPORT>5100</TCPPORT>	<!-- NOTE : currently not used. -->
+		<UDPPORT>7778</UDPPORT>
+	</AGENT>
+
+	<SERVER>	<!-- Server's address where agent will connected. -->
+		<IP>127.0.0.1</IP>
+		<PORT>6000</PORT>
+	</SERVER>
+</XML>
