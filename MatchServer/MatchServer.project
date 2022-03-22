@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="MatchServer" InternalType="Console">
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="Source">
+    <File Name="Main.cpp"/>
+    <File Name="MClientAcceptor.cpp"/>
+    <File Name="MCommand.cpp"/>
+    <File Name="MMatchDBMgr.cpp"/>
+    <File Name="MMatchObject.cpp"/>
+    <File Name="MMatchServer_Login.cpp"/>
+    <File Name="MMatchServer_OnCommand.cpp"/>
+    <File Name="MPacketCrypter.cpp"/>
+    <File Name="MPacketSender.cpp"/>
+    <File Name="MServerNetwork.cpp"/>
+    <File Name="MServerSetting.cpp"/>
+    <File Name="MUID.cpp"/>
+    <File Name="MMatchChannel.cpp"/>
+    <File Name="MMatchServer_Channel.cpp"/>
+    <File Name="MMatchServer_DuelTournament.cpp"/>
+    <File Name="MMatchItem.cpp"/>
+    <File Name="MMatchServer_Item.cpp"/>
+    <File Name="MMatchServer_Char.cpp"/>
+    <File Name="MMatchStage.cpp"/>
+    <File Name="MMatchServer_Stage.cpp"/>
+    <File Name="MMatchMap.cpp"/>
+    <File Name="MMatchGame.cpp"/>
+    <File Name="MMatchServer_Etc.cpp"/>
+    <File Name="MMatchExp.cpp"/>
+    <File Name="MServerUpdater.cpp"/>
+    <File Name="MPeerServer.cpp"/>
+    <File Name="MMatchAnnounce.cpp"/>
+    <File Name="MIPReplacer.cpp"/>
+    <File Name="MMatchServer_Clan.cpp"/>
+    <File Name="MMatchClan.cpp"/>
+    <File Name="MMatchServer_ChatRoom.cpp"/>
+    <File Name="MMatchCryptKey.cpp"/>
+    <File Name="MMatchServer_Agent.cpp"/>
+    <File Name="MMatchAgent.cpp"/>
+    <File Name="MMatchServer_Admin.cpp"/>
+    <File Name="MMatchChatRoom.cpp"/>
+    <File Name="MMatchQuest.cpp"/>
+    <File Name="MMatchServer_Quest.cpp"/>
+    <File Name="MMatchChallengeQuest.cpp"/>
+    <File Name="MMatchServer_ChallengeQuest.cpp"/>
+    <File Name="MMatchDuelTournament.cpp"/>
+    <File Name="MMatchGambleItem.cpp"/>
+    <File Name="MMatchBlitzKrieg.cpp"/>
+    <File Name="MMatchServer_BlitzKrieg.cpp"/>
+    <File Name="MServerMessage.cpp"/>
+    <File Name="MAsyncDBProcess.cpp"/>
+    <File Name="MMatchServer_Ladder.cpp"/>
+    <File Name="MMatchServer_Spy.cpp"/>
+    <File Name="MMatchSpy.cpp"/>
+    <File Name="MMatchCashShop.cpp"/>
+    <File Name="MMatchAdmin.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Include">
+    <File Name="Main.h"/>
+    <File Name="MClientAcceptor.h"/>
+    <File Name="MCommand.h"/>
+    <File Name="MCommandID.h"/>
+    <File Name="MMatchConstant.h"/>
+    <File Name="MMatchDBMgr.h"/>
+    <File Name="MMatchObject.h"/>
+    <File Name="MMatchObject_Constant.h"/>
+    <File Name="MMatchServer_OnCommand.h"/>
+    <File Name="MMessageID.h"/>
+    <File Name="MPacketCrypter.h"/>
+    <File Name="MPacketSender.h"/>
+    <File Name="MServerFeature.h"/>
+    <File Name="MServerNetwork.h"/>
+    <File Name="MServerSetting.h"/>
+    <File Name="MUID.h"/>
+    <File Name="pch.h"/>
+    <File Name="MMatchChannel.h"/>
+    <File Name="MMatchItem.h"/>
+    <File Name="MMatchStage.h"/>
+    <File Name="MCommandBlob.h"/>
+    <File Name="MMatchMap.h"/>
+    <File Name="MMatchGame.h"/>
+    <File Name="MMatchServer_Etc.h"/>
+    <File Name="MMatchExp.h"/>
+    <File Name="MServerUpdater.h"/>
+    <File Name="MPeerServer.h"/>
+    <File Name="MMatchAnnounce.h"/>
+    <File Name="MIPReplacer.h"/>
+    <File Name="MMatchClan.h"/>
+    <File Name="MMatchCryptKey.h"/>
+    <File Name="MMatchAgent.h"/>
+    <File Name="MUtil.h"/>
+    <File Name="MMatchChatRoom.h"/>
+    <File Name="MMatchQuest.h"/>
+    <File Name="MMatchChallengeQuest.h"/>
+    <File Name="MMatchDuelTournament.h"/>
+    <File Name="MMatchGambleItem.h"/>
+    <File Name="MMatchBlitzKrieg.h"/>
+    <File Name="MServerMessage.h"/>
+    <File Name="Socket.h"/>
+    <File Name="MAsyncDBProcess.h"/>
+    <File Name="MMatchSpy.h"/>
+    <File Name="MMatchCashShop.h"/>
+    <File Name="MMatchAdmin.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Other">
+    <File Name="gunzdb_130715.sql"/>
+    <VirtualDirectory Name="XML">
+      <File Name="MatchServer XMLs/announcement.xml"/>
+      <File Name="MatchServer XMLs/blitzshop.xml"/>
+      <File Name="MatchServer XMLs/channel.xml"/>
+      <File Name="MatchServer XMLs/formula.xml"/>
+      <File Name="MatchServer XMLs/gambleitem.xml"/>
+      <File Name="MatchServer XMLs/ipreplacer.xml"/>
+      <File Name="MatchServer XMLs/mapid.xml"/>
+      <File Name="MatchServer XMLs/matchserver.xml"/>
+      <File Name="MatchServer XMLs/npc.xml"/>
+      <File Name="MatchServer XMLs/npc2.xml"/>
+      <File Name="MatchServer XMLs/quest_dropitem.xml"/>
+      <File Name="MatchServer XMLs/questmap.xml"/>
+      <File Name="MatchServer XMLs/scenario_challengequest.xml"/>
+      <File Name="MatchServer XMLs/scenario_quest.xml"/>
+      <File Name="MatchServer XMLs/scenario_survival.xml"/>
+      <File Name="MatchServer XMLs/serverstring.xml"/>
+      <File Name="MatchServer XMLs/shop.xml"/>
+      <File Name="MatchServer XMLs/survivalmap.xml"/>
+      <File Name="MatchServer XMLs/zitem.xml"/>
+      <File Name="MatchServer XMLs/zitem_locale.xml"/>
+      <File Name="MatchServer XMLs/zquestitem.xml"/>
+      <File Name="MatchServer XMLs/spymaplist.xml"/>
+      <File Name="MatchServer XMLs/spymode.xml"/>
+      <File Name="MatchServer XMLs/cashshop.xml"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="ThirdParty">
+    <VirtualDirectory Name="SFMT">
+      <File Name="SFMT/SFMT.h"/>
+      <File Name="SFMT/SFMT-alti.h"/>
+      <File Name="SFMT/SFMT-common.h"/>
+      <File Name="SFMT/SFMT-params.h"/>
+      <File Name="SFMT/SFMT-params607.h"/>
+      <File Name="SFMT/SFMT-params1279.h"/>
+      <File Name="SFMT/SFMT-params2281.h"/>
+      <File Name="SFMT/SFMT-params4253.h"/>
+      <File Name="SFMT/SFMT-params11213.h"/>
+      <File Name="SFMT/SFMT-params19937.h"/>
+      <File Name="SFMT/SFMT-params44497.h"/>
+      <File Name="SFMT/SFMT-params86243.h"/>
+      <File Name="SFMT/SFMT-params132049.h"/>
+      <File Name="SFMT/SFMT-params216091.h"/>
+      <File Name="SFMT/SFMT-sse2.h"/>
+      <File Name="SFMT/SFMT.c"/>
+    </VirtualDirectory>
+    <File Name="otlv4.h"/>
+    <VirtualDirectory Name="TinyXML-2">
+      <File Name="tinyxml2/tinyxml2.cpp"/>
+      <File Name="tinyxml2/tinyxml2.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="TinyThread++">
+      <File Name="tinythread++/fast_mutex.h"/>
+      <File Name="tinythread++/tinythread.cpp"/>
+      <File Name="tinythread++/tinythread.h"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="">
+        <IncludePath Value="."/>
+        <Preprocessor Value="SFMT_MEXP=19937"/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-O0;-Wall;$(shell wx-config --cxxflags --unicode=yes --debug=yes)" C_Options="-g;-O0;-Wall;$(shell wx-config --cxxflags --unicode=yes --debug=yes)" Required="yes" PreCompiledHeader="pch.h" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <Preprocessor Value="_DEBUG=1"/>
+        <Preprocessor Value="_WIN_BUILD=1"/>
+        <Preprocessor Value="_GAME_VERSION=2011"/>
+      </Compiler>
+      <Linker Options="$(shell wx-config --debug=yes --libs --unicode=yes)" Required="yes">
+        <Library Value="libodbc32.a"/>
+      </Linker>
+      <ResourceCompiler Options="$(shell wx-config --rcflags)" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Debug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths>C:\CodeLite\wxWidgets-2.9.4\lib\gcc_dll\mswud</SearchPaths>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Debug_2012" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-O0;-Wall;$(shell wx-config --cxxflags --unicode=yes --debug=yes)" C_Options="-g;-O0;-Wall;$(shell wx-config --cxxflags --unicode=yes --debug=yes)" Required="yes" PreCompiledHeader="pch.h" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <Preprocessor Value="_DEBUG=1"/>
+        <Preprocessor Value="_WIN_BUILD=1"/>
+        <Preprocessor Value="_GAME_VERSION=2012"/>
+      </Compiler>
+      <Linker Options="$(shell wx-config --debug=yes --libs --unicode=yes)" Required="yes">
+        <Library Value="libodbc32.a"/>
+      </Linker>
+      <ResourceCompiler Options="$(shell wx-config --rcflags)" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Debug_2012" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP>_DEBUG=1
+_WIN_BUILD=1
+_GAME_VERSION=2012</ClangPP>
+        <SearchPaths>C:\CodeLite\wxWidgets-2.9.4\lib\gcc_dll\mswud</SearchPaths>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Debug_2013" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-O0;-Wall;$(shell wx-config --cxxflags --unicode=yes --debug=yes)" C_Options="-g;-O0;-Wall;$(shell wx-config --cxxflags --unicode=yes --debug=yes)" Required="yes" PreCompiledHeader="pch.h" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <Preprocessor Value="_DEBUG=1"/>
+        <Preprocessor Value="_WIN_BUILD=1"/>
+        <Preprocessor Value="_GAME_VERSION=2013"/>
+      </Compiler>
+      <Linker Options="$(shell wx-config --debug=yes --libs --unicode=yes)" Required="yes">
+        <Library Value="libodbc32.a"/>
+      </Linker>
+      <ResourceCompiler Options="$(shell wx-config --rcflags)" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Debug_2013" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP>_DEBUG=1
+_WIN_BUILD=1
+_GAME_VERSION=2012</ClangPP>
+        <SearchPaths>C:\CodeLite\wxWidgets-2.9.4\lib\gcc_dll\mswud</SearchPaths>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-Wall;$(shell wx-config --cxxflags --unicode=yes --debug=no)" C_Options="-O2;-Wall;$(shell wx-config --cxxflags --unicode=yes --debug=no)" Required="yes" PreCompiledHeader="pch.h" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <Preprocessor Value="_RELEASE=1"/>
+        <Preprocessor Value="_WIN_BUILD=1"/>
+        <Preprocessor Value="_GAME_VERSION=2011"/>
+      </Compiler>
+      <Linker Options="-s;$(shell wx-config --debug=no --libs --unicode=yes)" Required="yes">
+        <Library Value="libodbc32.a"/>
+      </Linker>
+      <ResourceCompiler Options="$(shell wx-config --rcflags)" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Release" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths>C:\CodeLite\wxWidgets-2.9.4\lib\gcc_dll\mswu</SearchPaths>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release_2012" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-Wall;$(shell wx-config --cxxflags --unicode=yes --debug=no)" C_Options="-O2;-Wall;$(shell wx-config --cxxflags --unicode=yes --debug=no)" Required="yes" PreCompiledHeader="pch.h" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <Preprocessor Value="_RELEASE=1"/>
+        <Preprocessor Value="_WIN_BUILD=1"/>
+        <Preprocessor Value="_GAME_VERSION=2012"/>
+      </Compiler>
+      <Linker Options="-s;$(shell wx-config --debug=no --libs --unicode=yes)" Required="yes">
+        <Library Value="libodbc32.a"/>
+      </Linker>
+      <ResourceCompiler Options="$(shell wx-config --rcflags)" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Release_2012" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths>C:\CodeLite\wxWidgets-2.9.4\include</SearchPaths>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Unix_Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-Wall;$(shell wx-config --cxxflags --unicode=yes --debug=no)" C_Options="-O2;-Wall;$(shell wx-config --cxxflags --unicode=yes --debug=no)" Required="yes" PreCompiledHeader="pch.h" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <Preprocessor Value="_RELEASE=1"/>
+        <Preprocessor Value="_UNIX_BUILD=1"/>
+        <Preprocessor Value="_GAME_VERSION=2011"/>
+      </Compiler>
+      <Linker Options="-s;$(shell wx-config --debug=no --libs --unicode=yes)" Required="yes">
+        <Library Value="libodbc.a"/>
+      </Linker>
+      <ResourceCompiler Options="$(shell wx-config --rcflags)" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Unix_Release" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>
