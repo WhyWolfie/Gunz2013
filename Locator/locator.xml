@@ -1,0 +1,11 @@
+<XML>
+	<LOCATOR>
+		<UDPPORT>8900</UDPPORT>	<!-- Locator's listen port (UDP). -->
+	</LOCATOR>
+
+	<DATABASE>	<!-- ODBC info. used for retrieve server list. -->
+		<USERNAME>postgres</USERNAME>
+		<PASSWORD>password</PASSWORD>
+		<DSN>gunzdb</DSN>
+	</DATABASE>
+</XML>
