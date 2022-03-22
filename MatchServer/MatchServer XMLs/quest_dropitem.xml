@@ -1,0 +1,509 @@
+<XML>
+	<!-- 
+		Basic WorldItem IDs...
+
+		hp01 : 1.
+		hp02 : 2.
+		hp03 : 3.
+		ap01 : 4.
+		ap02 : 5.
+		ap03 : 6.
+		bullet01 : 7.
+		bullet02 : 8.
+	 -->
+
+	<!-- 
+		Item ID 0 will be empty item.
+	 -->
+
+  <!-- 
+        //////////////////// Quest NPC. ////////////////////
+    -->
+
+<!-- Mansion. -->
+	<DROPSET npc_id="11">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="200011" zitem="true" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="12">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="200012" zitem="true" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="13">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="200013" zitem="true" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="14">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="200021" zitem="true" />
+		<ITEM id="200008" zitem="true" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="15">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="200018" zitem="true" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="16">
+		<ITEM id="200009" zitem="true" />
+		<ITEM id="200004" zitem="true" />
+		<ITEM id="400503" zitem="true" rent_period_hour="168" />
+		<ITEM id="400504" zitem="true" rent_period_hour="168" />
+		<ITEM id="400501" zitem="true" rent_period_hour="168" />
+	</DROPSET>
+
+	<DROPSET npc_id="17">
+		<ITEM id="200033" zitem="true" />
+		<ITEM id="200004" zitem="true" />
+		<ITEM id="400520" zitem="true" rent_period_hour="168" />
+		<ITEM id="400521" zitem="true" rent_period_hour="168" />
+		<ITEM id="400519" zitem="true" rent_period_hour="168" />
+	</DROPSET>
+
+	<DROPSET npc_id="18">
+		<ITEM id="200038" zitem="true" />
+		<ITEM id="200004" zitem="true" />
+		<ITEM id="400523" zitem="true" rent_period_hour="168" />
+		<ITEM id="400524" zitem="true" rent_period_hour="168" />
+		<ITEM id="400522" zitem="true" rent_period_hour="168" />
+	</DROPSET>
+
+	<DROPSET npc_id="181">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="19">
+		<ITEM id="200038" zitem="true" />
+		<ITEM id="200004" zitem="true" />
+		<ITEM id="400526" zitem="true" rent_period_hour="168" />
+		<ITEM id="400527" zitem="true" rent_period_hour="168" />
+		<ITEM id="400525" zitem="true" rent_period_hour="168" />
+	</DROPSET>
+
+	<DROPSET npc_id="191">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+<!-- Prison. -->
+	<DROPSET npc_id="21">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="200014" zitem="true" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="22">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="200015" zitem="true" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="23">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="200016" zitem="true" />
+		<ITEM id="200020" zitem="true" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="24">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="200017" zitem="true" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="25">
+		<ITEM id="200039" zitem="true" />
+		<ITEM id="200037" zitem="true" />
+		<ITEM id="200004" zitem="true" />
+		<ITEM id="400517" zitem="true" rent_period_hour="168" />
+		<ITEM id="400518" zitem="true" rent_period_hour="168" />
+		<ITEM id="400514" zitem="true" rent_period_hour="168" />
+	</DROPSET>
+
+	<DROPSET npc_id="26">
+		<ITEM id="200036" zitem="true" />
+		<ITEM id="200044" zitem="true" />
+		<ITEM id="200004" zitem="true" />
+		<ITEM id="400515" zitem="true" rent_period_hour="168" />
+		<ITEM id="400516" zitem="true" rent_period_hour="168" />
+		<ITEM id="400513" zitem="true" rent_period_hour="168" />
+	</DROPSET>
+
+<!-- Dungeon. -->
+	<DROPSET npc_id="31">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="200005" zitem="true" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="32">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="200005" zitem="true" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="33">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="200019" zitem="true" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="34">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="200006" zitem="true" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="35">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="200007" zitem="true" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="36">
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="37">
+		<ITEM id="200040" zitem="true" />
+		<ITEM id="200004" zitem="true" />
+		<ITEM id="400505" zitem="true" rent_period_hour="168" />
+		<ITEM id="400506" zitem="true" rent_period_hour="168" />
+		<ITEM id="400502" zitem="true" rent_period_hour="168" />
+		<ITEM id="200010" zitem="true" />
+	</DROPSET>
+
+	<DROPSET npc_id="38">
+		<ITEM id="200041" zitem="true" />
+		<ITEM id="200004" zitem="true" />
+		<ITEM id="400509" zitem="true" rent_period_hour="168" />
+		<ITEM id="400510" zitem="true" rent_period_hour="168" />
+		<ITEM id="400507" zitem="true" rent_period_hour="168" />
+		<ITEM id="200028" zitem="true" />
+	</DROPSET>
+
+	<DROPSET npc_id="39">
+		<ITEM id="200042" zitem="true" />
+		<ITEM id="200004" zitem="true" />
+		<ITEM id="400511" zitem="true" rent_period_hour="168" />
+		<ITEM id="400512" zitem="true" rent_period_hour="168" />
+		<ITEM id="400508" zitem="true" rent_period_hour="168" />
+	</DROPSET>
+
+<!-- Palmpow. -->
+	<DROPSET npc_id="41">
+		<ITEM id="200022" zitem="true" />
+	</DROPSET>
+
+	<DROPSET npc_id="48">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="42">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="43">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="46">
+		<ITEM id="200026" zitem="true" />
+	</DROPSET>
+
+	<DROPSET npc_id="44">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="47">
+		<ITEM id="200027" zitem="true" />
+		<ITEM id="400528" zitem="true" rent_period_hour="168" />
+		<ITEM id="400529" zitem="true" rent_period_hour="168" />
+		<ITEM id="400530" zitem="true" rent_period_hour="168" />
+	</DROPSET>
+
+	<DROPSET npc_id="45">
+		<ITEM id="200035" zitem="true" />
+		<ITEM id="200004" zitem="true" />
+		<ITEM id="400531" zitem="true" rent_period_hour="168" />
+		<ITEM id="400532" zitem="true" rent_period_hour="168" />
+		<ITEM id="400533" zitem="true" rent_period_hour="168" />
+	</DROPSET>
+
+
+  <!-- 
+        //////////////////// Survival NPC. ////////////////////
+    -->
+
+	<DROPSET npc_id="151">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="152">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="153">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="154">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="155">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="156">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="157">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="158">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="159">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="141">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="142">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="161">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="162">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="163">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="164">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="165">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="166">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="167">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="143">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="144">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="171">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="172">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="173">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="174">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="175">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="176">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="177">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="178">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="179">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="180">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+	<DROPSET npc_id="145">
+		<ITEM id="1" />
+		<ITEM id="4" />
+		<ITEM id="7" />
+		<ITEM id="0" />
+	</DROPSET>
+
+</XML>

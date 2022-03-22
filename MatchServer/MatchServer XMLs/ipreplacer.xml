@@ -1,0 +1,5 @@
+<XML>
+	<!-- this will makes possible you, localhost IP to some IP. (i.e. don't need two internets to play.) -->
+	<IP from="127.0.0.1" to="Your WAN IP (Global IP) here." />
+
+</XML>

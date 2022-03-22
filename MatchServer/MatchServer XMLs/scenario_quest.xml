@@ -1,0 +1,982 @@
+<XML>
+	<!-- 
+		Map name available : Mansion, Prison, Dungeon.
+	 -->
+
+	<!-- EXP x15, BP x12. -->
+	<EXP rate="15" bp_rate="12"/>
+
+<!-- Mansion Lv.0 -->
+<!-- 
+	<SCENARIO id="10000" lv="0" map="Mansion" xp="200" bp="25" round="3" npc_count="20">
+		<SACRIFICE_ITEM>
+		</SACRIFICE_ITEM>
+		<MAP random="true">
+			<SECTOR id="101"/>
+			<SECTOR id="102"/>
+			<SECTOR id="103"/>
+			<SECTOR id="104"/>
+			<SECTOR id="105"/>
+			<SECTOR id="106"/>
+			<SECTOR id="107"/>
+			<SECTOR id="108"/>
+			<SECTOR id="109"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="11">
+			</ROUND>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.15"/>
+			</ROUND>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.30"/>
+				<NPC id="41" rate="0.0001"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+ -->
+
+<!-- Mansion Lv.1 -->
+	<SCENARIO id="10001" lv="1" map="Mansion" xp="500" bp="50" round="4" npc_count="26">
+		<SACRIFICE_ITEM>
+		</SACRIFICE_ITEM>
+		<MAP random="true">
+			<SECTOR id="101"/>
+			<SECTOR id="102"/>
+			<SECTOR id="103"/>
+			<SECTOR id="104"/>
+			<SECTOR id="105"/>
+			<SECTOR id="106"/>
+			<SECTOR id="107"/>
+			<SECTOR id="108"/>
+			<SECTOR id="109"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="11">
+			</ROUND>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.15"/>
+			</ROUND>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.30"/>
+			</ROUND>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.20"/>
+				<NPC id="13" rate="0.05"/>
+				<NPC id="41" rate="0.0001"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Mansion Lv.2 -->
+	<SCENARIO id="10002" lv="2" map="Mansion" xp="1600" bp="120" round="5" npc_count="33">
+		<SACRIFICE_ITEM>
+			<ITEM id="200001"/>
+		</SACRIFICE_ITEM>
+		<MAP random="true">
+			<SECTOR id="101"/>
+			<SECTOR id="102"/>
+			<SECTOR id="103"/>
+			<SECTOR id="104"/>
+			<SECTOR id="105"/>
+			<SECTOR id="106"/>
+			<SECTOR id="107"/>
+			<SECTOR id="108"/>
+			<SECTOR id="109"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.15"/>
+			</ROUND>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.30"/>
+			</ROUND>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.20"/>
+				<NPC id="13" rate="0.05"/>
+			</ROUND>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.30"/>
+				<NPC id="13" rate="0.10"/>
+				<NPC id="14" rate="0.05"/>
+			</ROUND>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.20"/>
+				<NPC id="13" rate="0.20"/>
+				<NPC id="14" rate="0.30"/>
+				<NPC id="41" rate="0.0001"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Mansion Lv.3 -->
+	<SCENARIO id="10003" lv="3" map="Mansion" xp="3200" bp="250" round="5" npc_count="41">
+		<SACRIFICE_ITEM>
+			<ITEM id="200002"/>
+		</SACRIFICE_ITEM>
+		<MAP random="true">
+			<SECTOR id="101"/>
+			<SECTOR id="102"/>
+			<SECTOR id="103"/>
+			<SECTOR id="104"/>
+			<SECTOR id="105"/>
+			<SECTOR id="106"/>
+			<SECTOR id="107"/>
+			<SECTOR id="108"/>
+			<SECTOR id="109"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.30"/>
+			</ROUND>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.20"/>
+				<NPC id="13" rate="0.05"/>
+			</ROUND>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.30"/>
+				<NPC id="13" rate="0.10"/>
+				<NPC id="14" rate="0.05"/>
+			</ROUND>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.20"/>
+				<NPC id="13" rate="0.20"/>
+				<NPC id="14" rate="0.30"/>
+			</ROUND>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.20"/>
+				<NPC id="13" rate="0.20"/>
+				<NPC id="14" rate="0.20"/>
+				<NPC id="15" rate="0.05"/>
+				<NPC id="41" rate="0.0001"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Mansion Lv.4 -->
+	<SCENARIO id="10004" lv="4" map="Mansion" xp="6400" bp="500" round="5" npc_count="50">
+		<SACRIFICE_ITEM>
+			<ITEM id="200003"/>
+		</SACRIFICE_ITEM>
+		<MAP random="true">
+			<SECTOR id="101"/>
+			<SECTOR id="102"/>
+			<SECTOR id="103"/>
+			<SECTOR id="104"/>
+			<SECTOR id="105"/>
+			<SECTOR id="106"/>
+			<SECTOR id="107"/>
+			<SECTOR id="108"/>
+			<SECTOR id="109"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.20"/>
+				<NPC id="13" rate="0.05"/>
+			</ROUND>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.30"/>
+				<NPC id="13" rate="0.10"/>
+				<NPC id="14" rate="0.05"/>
+			</ROUND>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.20"/>
+				<NPC id="13" rate="0.20"/>
+				<NPC id="14" rate="0.30"/>
+			</ROUND>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.20"/>
+				<NPC id="13" rate="0.20"/>
+				<NPC id="14" rate="0.20"/>
+				<NPC id="15" rate="0.05"/>
+			</ROUND>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.20"/>
+				<NPC id="13" rate="0.10"/>
+				<NPC id="14" rate="0.40"/>
+				<NPC id="15" rate="0.10"/>
+				<NPC id="41" rate="0.0001"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Mansion Lv.5 -->
+	<SCENARIO id="10005" lv="5" map="Mansion" xp="12800" bp="1200" round="5" npc_count="60">
+		<SACRIFICE_ITEM>
+			<ITEM id="200004"/>
+		</SACRIFICE_ITEM>
+		<MAP random="true">
+			<SECTOR id="101"/>
+			<SECTOR id="102"/>
+			<SECTOR id="103"/>
+			<SECTOR id="104"/>
+			<SECTOR id="105"/>
+			<SECTOR id="106"/>
+			<SECTOR id="107"/>
+			<SECTOR id="108"/>
+			<SECTOR id="109"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.30"/>
+				<NPC id="13" rate="0.10"/>
+				<NPC id="14" rate="0.05"/>
+			</ROUND>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.20"/>
+				<NPC id="13" rate="0.20"/>
+				<NPC id="14" rate="0.30"/>
+			</ROUND>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.20"/>
+				<NPC id="13" rate="0.20"/>
+				<NPC id="14" rate="0.20"/>
+				<NPC id="15" rate="0.05"/>
+			</ROUND>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.20"/>
+				<NPC id="13" rate="0.10"/>
+				<NPC id="14" rate="0.40"/>
+				<NPC id="15" rate="0.10"/>
+			</ROUND>
+			<ROUND base_npcid="11">
+				<NPC id="12" rate="0.20"/>
+				<NPC id="13" rate="0.10"/>
+				<NPC id="14" rate="0.30"/>
+				<NPC id="15" rate="0.20"/>
+				<NPC id="41" rate="0.0001"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Mansion Lv.6 : Goblin King -->
+	<SCENARIO id="11" lv="1" map="Mansion" xp="10000" bp="1000" round="1" npc_count="30">
+		<SACRIFICE_ITEM>
+			<ITEM id="200008"/>
+			<ITEM id="200018"/>
+		</SACRIFICE_ITEM>
+		<MAP random="false">
+			<SECTOR id="102"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="11" infinite="true">
+				<NPC id="12" rate="0.30"/>
+				<NPC id="13" rate="0.20"/>
+				<NPC id="14" rate="0.20"/>
+				<NPC id="15" rate="0.10"/>
+				<NPC id="41" rate="0.0001"/>
+				<NPC id="16" boss="true"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Mansion Lv.6 : Fake Goblin King -->
+	<SCENARIO id="12" lv="1" map="Mansion" xp="8000" bp="800" round="1" npc_count="30">
+		<SACRIFICE_ITEM>
+			<ITEM id="200021"/>
+			<ITEM id="200008"/>
+		</SACRIFICE_ITEM>
+		<MAP random="false">
+			<SECTOR id="102"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="11" infinite="true">
+				<NPC id="12" rate="0.20"/>
+				<NPC id="13" rate="0.20"/>
+				<NPC id="14" rate="0.20"/>
+				<NPC id="15" rate="0.10"/>
+				<NPC id="41" rate="0.0001"/>
+				<NPC id="17" boss="true"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Mansion Lv.6 : Thunder Goblin King -->
+	<SCENARIO id="13" lv="1" map="Mansion" xp="12000" bp="1000" round="1" npc_count="30">
+		<SACRIFICE_ITEM>
+			<ITEM id="200009"/>
+			<ITEM id="200018"/>
+		</SACRIFICE_ITEM>
+		<MAP random="false">
+			<SECTOR id="102"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="181" infinite="false">
+				<NPC id="41" rate="0.0001"/>
+				<NPC id="18" boss="true"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Mansion Lv.6 : Dwarf Goblin King -->
+	<SCENARIO id="14" lv="1" map="Mansion" xp="12000" bp="1000" round="1" npc_count="30">
+		<SACRIFICE_ITEM>
+			<ITEM id="200009"/>
+			<ITEM id="200021"/>
+		</SACRIFICE_ITEM>
+		<MAP random="false">
+			<SECTOR id="102"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="191" infinite="false">
+				<NPC id="41" rate="0.0001"/>
+				<NPC id="19" boss="true"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Prison Lv.0 -->
+<!-- 
+	<SCENARIO id="10100" lv="0" map="Prison" xp="200" bp="25" round="4" npc_count="20">
+		<SACRIFICE_ITEM>
+		</SACRIFICE_ITEM>
+		<MAP random="false">
+			<SECTOR id="201"/>
+			<SECTOR id="202"/>
+			<SECTOR id="203"/>
+			<SECTOR id="204"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="21">
+			</ROUND>
+			<ROUND base_npcid="21">
+				<NPC id="22" rate="0.20"/>
+			</ROUND>
+			<ROUND base_npcid="21">
+				<NPC id="22" rate="0.20"/>
+			</ROUND>
+			<ROUND base_npcid="21">
+				<NPC id="22" rate="0.20"/>
+				<NPC id="23" rate="0.05"/>
+				<NPC id="41" rate="0.0001"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+ -->
+
+<!-- Prison Lv.1 -->
+	<SCENARIO id="10101" lv="1" map="Prison" xp="500" bp="50" round="5" npc_count="26">
+		<SACRIFICE_ITEM>
+		</SACRIFICE_ITEM>
+		<MAP random="false">
+			<SECTOR id="201"/>
+			<SECTOR id="202"/>
+			<SECTOR id="203"/>
+			<SECTOR id="204"/>
+			<SECTOR id="205"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="21">
+			</ROUND>
+			<ROUND base_npcid="21">
+				<NPC id="22" rate="0.20"/>
+			</ROUND>
+			<ROUND base_npcid="21">
+				<NPC id="22" rate="0.40"/>
+			</ROUND>
+			<ROUND base_npcid="21">
+				<NPC id="22" rate="0.30"/>
+				<NPC id="23" rate="0.20"/>
+			</ROUND>
+			<ROUND base_npcid="21">
+				<NPC id="22" rate="0.40"/>
+				<NPC id="23" rate="0.20"/>
+				<NPC id="41" rate="0.0001"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Prison Lv.2 -->
+	<SCENARIO id="10102" lv="2" map="Prison" xp="1600" bp="120" round="5" npc_count="33">
+		<SACRIFICE_ITEM>
+			<ITEM id="200001"/>
+		</SACRIFICE_ITEM>
+		<MAP random="false">
+			<SECTOR id="203"/>
+			<SECTOR id="204"/>
+			<SECTOR id="205"/>
+			<SECTOR id="206"/>
+			<SECTOR id="207"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="21">
+			</ROUND>
+			<ROUND base_npcid="21">
+				<NPC id="22" rate="0.20"/>
+			</ROUND>
+			<ROUND base_npcid="21">
+				<NPC id="22" rate="0.40"/>
+			</ROUND>
+			<ROUND base_npcid="21">
+				<NPC id="22" rate="0.30"/>
+				<NPC id="23" rate="0.20"/>
+			</ROUND>
+			<ROUND base_npcid="21">
+				<NPC id="22" rate="0.40"/>
+				<NPC id="23" rate="0.20"/>
+				<NPC id="41" rate="0.0001"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Prison Lv.3 -->
+	<SCENARIO id="10103" lv="3" map="Prison" xp="3200" bp="250" round="5" npc_count="41">
+		<SACRIFICE_ITEM>
+			<ITEM id="200002"/>
+		</SACRIFICE_ITEM>
+		<MAP random="false">
+			<SECTOR id="205"/>
+			<SECTOR id="206"/>
+			<SECTOR id="207"/>
+			<SECTOR id="208"/>
+			<SECTOR id="209"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="21">
+			</ROUND>
+			<ROUND base_npcid="21">
+				<NPC id="22" rate="0.50"/>
+			</ROUND>
+			<ROUND base_npcid="21">
+				<NPC id="22" rate="0.50"/>
+			</ROUND>
+			<ROUND base_npcid="22">
+				<NPC id="23" rate="0.30"/>
+			</ROUND>
+			<ROUND base_npcid="21">
+				<NPC id="22" rate="0.50"/>
+				<NPC id="23" rate="0.30"/>
+				<NPC id="41" rate="0.0001"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Prison Lv.4 -->
+	<SCENARIO id="10104" lv="4" map="Prison" xp="6400" bp="500" round="5" npc_count="50">
+		<SACRIFICE_ITEM>
+			<ITEM id="200003"/>
+		</SACRIFICE_ITEM>
+		<MAP random="false">
+			<SECTOR id="205"/>
+			<SECTOR id="206"/>
+			<SECTOR id="207"/>
+			<SECTOR id="208"/>
+			<SECTOR id="209"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="21">
+				<NPC id="22" rate="0.35"/>
+				<NPC id="23" rate="0.50"/>
+			</ROUND>
+			<ROUND base_npcid="21">
+				<NPC id="22" rate="0.40"/>
+				<NPC id="23" rate="0.50"/>
+			</ROUND>
+			<ROUND base_npcid="21">
+				<NPC id="22" rate="0.30"/>
+				<NPC id="23" rate="0.50"/>
+				<NPC id="24" rate="0.15"/>
+			</ROUND>
+			<ROUND base_npcid="23">
+				<NPC id="22" rate="0.45"/>
+				<NPC id="24" rate="0.20"/>
+			</ROUND>
+			<ROUND base_npcid="22">
+				<NPC id="41" rate="0.0001"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Prison Lv.5 -->
+	<SCENARIO id="10105" lv="5" map="Prison" xp="12800" bp="1200" round="4" npc_count="60">
+		<SACRIFICE_ITEM>
+			<ITEM id="200004"/>
+		</SACRIFICE_ITEM>
+		<MAP random="false">
+			<SECTOR id="206"/>
+			<SECTOR id="207"/>
+			<SECTOR id="208"/>
+			<SECTOR id="209"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="23">
+				<NPC id="22" rate="0.40"/>
+				<NPC id="24" rate="0.10"/>
+			</ROUND>
+			<ROUND base_npcid="23">
+				<NPC id="22" rate="0.40"/>
+				<NPC id="24" rate="0.20"/>
+			</ROUND>
+			<ROUND base_npcid="24">
+				<NPC id="22" rate="0.40"/>
+			</ROUND>
+			<ROUND base_npcid="24">
+				<NPC id="22" rate="0.40"/>
+				<NPC id="41" rate="0.0001"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Prison Lv.6 : Giant Lizardman -->
+	<SCENARIO id="21" lv="1" map="Prison" xp="10000" bp="1000" round="3" npc_count="30">
+		<SACRIFICE_ITEM>
+			<ITEM id="200016"/>
+			<ITEM id="200017"/>
+		</SACRIFICE_ITEM>
+		<MAP random="false">
+			<SECTOR id="206"/>
+			<SECTOR id="207"/>
+			<SECTOR id="208"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="23">
+				<NPC id="21" rate="0.30"/>
+				<NPC id="22" rate="0.40"/>
+				<NPC id="24" rate="0.10"/>
+			</ROUND>
+			<ROUND base_npcid="23">
+				<NPC id="21" rate="0.30"/>
+				<NPC id="22" rate="0.40"/>
+				<NPC id="24" rate="0.20"/>
+			</ROUND>
+			<ROUND base_npcid="21" infinite="true">
+				<NPC id="41" rate="0.0001"/>
+				<NPC id="25" boss="true"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Prison Lv.7 : Broken Golem -->
+	<SCENARIO id="22" lv="1" map="Prison" xp="12000" bp="1000" round="3" npc_count="30">
+		<SACRIFICE_ITEM>
+			<ITEM id="200020"/>
+			<ITEM id="200037"/>
+		</SACRIFICE_ITEM>
+		<MAP random="false">
+			<SECTOR id="203"/>
+			<SECTOR id="204"/>
+			<SECTOR id="205"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="23">
+				<NPC id="21" rate="0.30"/>
+				<NPC id="22" rate="0.40"/>
+				<NPC id="24" rate="0.20"/>
+			</ROUND>
+			<ROUND base_npcid="23">
+				<NPC id="21" rate="0.30"/>
+				<NPC id="22" rate="0.40"/>
+				<NPC id="24" rate="0.20"/>
+			</ROUND>
+			<ROUND base_npcid="21" infinite="true">
+				<NPC id="22" rate="0.15"/>
+				<NPC id="23" rate="0.13"/>
+				<NPC id="24" rate="0.07"/>
+				<NPC id="41" rate="0.0001"/>
+				<NPC id="26" boss="true"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Dungeon Lv.0 -->
+<!-- 
+	<SCENARIO id="10200" lv="0" map="Dungeon" xp="200" bp="25" round="3" npc_count="20">
+		<SACRIFICE_ITEM>
+		</SACRIFICE_ITEM>
+		<MAP random="false">
+			<SECTOR id="301"/>
+			<SECTOR id="302"/>
+			<SECTOR id="303"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="31">
+			</ROUND>
+			<ROUND base_npcid="31">
+				<NPC id="32" rate="0.30"/>
+			</ROUND>
+			<ROUND base_npcid="31">
+				<NPC id="32" rate="0.50"/>
+				<NPC id="41" rate="0.0001"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+ -->
+
+<!-- Dungeon Lv.1 -->
+	<SCENARIO id="10201" lv="1" map="Dungeon" xp="500" bp="50" round="4" npc_count="26">
+		<SACRIFICE_ITEM>
+		</SACRIFICE_ITEM>
+		<MAP random="false">
+			<SECTOR id="301"/>
+			<SECTOR id="302"/>
+			<SECTOR id="303"/>
+			<SECTOR id="304"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="31">
+			</ROUND>
+			<ROUND base_npcid="31">
+				<NPC id="32" rate="0.30"/>
+			</ROUND>
+			<ROUND base_npcid="31">
+				<NPC id="32" rate="0.50"/>
+			</ROUND>
+			<ROUND base_npcid="32">
+				<NPC id="33" rate="0.30"/>
+				<NPC id="41" rate="0.0001"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Dungeon Lv.2 -->
+	<SCENARIO id="10202" lv="2" map="Dungeon" xp="1600" bp="120" round="5" npc_count="33">
+		<SACRIFICE_ITEM>
+			<ITEM id="200001"/>
+		</SACRIFICE_ITEM>
+		<MAP random="false">
+			<SECTOR id="302"/>
+			<SECTOR id="303"/>
+			<SECTOR id="304"/>
+			<SECTOR id="305"/>
+			<SECTOR id="306"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="31">
+				<NPC id="32" rate="0.30"/>
+			</ROUND>
+			<ROUND base_npcid="31">
+				<NPC id="32" rate="0.50"/>
+			</ROUND>
+			<ROUND base_npcid="32">
+				<NPC id="33" rate="0.30"/>
+			</ROUND>
+			<ROUND base_npcid="31">
+				<NPC id="32" rate="0.50"/>
+				<NPC id="33" rate="0.30"/>
+			</ROUND>
+			<ROUND base_npcid="31">
+				<NPC id="32" rate="0.40"/>
+				<NPC id="33" rate="0.40"/>
+				<NPC id="34" rate="0.10"/>
+				<NPC id="41" rate="0.0001"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Dungeon Lv.3 -->
+	<SCENARIO id="10203" lv="3" map="Dungeon" xp="3200" bp="250" round="5" npc_count="41">
+		<SACRIFICE_ITEM>
+			<ITEM id="200002"/>
+		</SACRIFICE_ITEM>
+		<MAP random="false">
+			<SECTOR id="303"/>
+			<SECTOR id="304"/>
+			<SECTOR id="305"/>
+			<SECTOR id="306"/>
+			<SECTOR id="307"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="31">
+				<NPC id="32" rate="0.50"/>
+			</ROUND>
+			<ROUND base_npcid="32">
+				<NPC id="33" rate="0.30"/>
+			</ROUND>
+			<ROUND base_npcid="31">
+				<NPC id="32" rate="0.50"/>
+				<NPC id="33" rate="0.30"/>
+			</ROUND>
+			<ROUND base_npcid="31">
+				<NPC id="32" rate="0.40"/>
+				<NPC id="33" rate="0.40"/>
+				<NPC id="34" rate="0.10"/>
+			</ROUND>
+			<ROUND base_npcid="33">
+				<NPC id="32" rate="0.40"/>
+				<NPC id="34" rate="0.10"/>
+				<NPC id="35" rate="0.08"/>
+				<NPC id="41" rate="0.0001"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Dungeon Lv.4 -->
+	<SCENARIO id="10204" lv="4" map="Dungeon" xp="6400" bp="500" round="5" npc_count="50">
+		<SACRIFICE_ITEM>
+			<ITEM id="200003"/>
+		</SACRIFICE_ITEM>
+		<MAP random="false">
+			<SECTOR id="304"/>
+			<SECTOR id="305"/>
+			<SECTOR id="306"/>
+			<SECTOR id="307"/>
+			<SECTOR id="308"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="32">
+				<NPC id="33" rate="0.30"/>
+			</ROUND>
+			<ROUND base_npcid="31">
+				<NPC id="32" rate="0.50"/>
+				<NPC id="33" rate="0.30"/>
+			</ROUND>
+			<ROUND base_npcid="31">
+				<NPC id="32" rate="0.40"/>
+				<NPC id="33" rate="0.40"/>
+				<NPC id="34" rate="0.10"/>
+			</ROUND>
+			<ROUND base_npcid="33">
+				<NPC id="32" rate="0.40"/>
+				<NPC id="34" rate="0.10"/>
+				<NPC id="35" rate="0.08"/>
+			</ROUND>
+			<ROUND base_npcid="32">
+				<NPC id="33" rate="0.40"/>
+				<NPC id="35" rate="0.08"/>
+				<NPC id="41" rate="0.0001"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Dungeon Lv.5 -->
+	<SCENARIO id="10205" lv="5" map="Dungeon" xp="12800" bp="1200" round="5" npc_count="60">
+		<SACRIFICE_ITEM>
+			<ITEM id="200004"/>
+		</SACRIFICE_ITEM>
+		<MAP random="false">
+			<SECTOR id="305"/>
+			<SECTOR id="306"/>
+			<SECTOR id="307"/>
+			<SECTOR id="308"/>
+			<SECTOR id="309"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="31">
+				<NPC id="32" rate="0.50"/>
+				<NPC id="33" rate="0.30"/>
+			</ROUND>
+			<ROUND base_npcid="31">
+				<NPC id="32" rate="0.40"/>
+				<NPC id="33" rate="0.40"/>
+				<NPC id="34" rate="0.10"/>
+			</ROUND>
+			<ROUND base_npcid="33">
+				<NPC id="32" rate="0.40"/>
+				<NPC id="34" rate="0.10"/>
+				<NPC id="35" rate="0.08"/>
+			</ROUND>
+			<ROUND base_npcid="32">
+				<NPC id="33" rate="0.40"/>
+				<NPC id="35" rate="0.08"/>
+			</ROUND>
+			<ROUND base_npcid="32">
+				<NPC id="33" rate="0.30"/>
+				<NPC id="34" rate="0.15"/>
+				<NPC id="35" rate="0.08"/>
+				<NPC id="36" rate="0.10"/>
+				<NPC id="41" rate="0.0001"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Dungeon Lv.6 : Superion -->
+	<SCENARIO id="31" lv="1" map="Dungeon" xp="10000" bp="1000" round="4" npc_count="30">
+		<SACRIFICE_ITEM>
+			<ITEM id="200006"/>
+			<ITEM id="200019"/>
+		</SACRIFICE_ITEM>
+		<MAP random="false">
+			<SECTOR id="303"/>
+			<SECTOR id="304"/>
+			<SECTOR id="305"/>
+			<SECTOR id="306"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="31">
+				<NPC id="32" rate="0.30"/>
+				<NPC id="33" rate="0.20"/>
+			</ROUND>
+			<ROUND base_npcid="32">
+				<NPC id="33" rate="0.30"/>
+			</ROUND>
+			<ROUND base_npcid="31">
+				<NPC id="32" rate="0.40"/>
+				<NPC id="33" rate="0.40"/>
+			</ROUND>
+			<ROUND base_npcid="31" infinite="true">
+				<NPC id="32" rate="0.20"/>
+				<NPC id="33" rate="0.30"/>
+				<NPC id="41" rate="0.0001"/>
+				<NPC id="37" boss="true"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Dungeon Lv.6 : Aneramon -->
+	<SCENARIO id="32" lv="1" map="Dungeon" xp="10000" bp="1000" round="4" npc_count="30">
+		<SACRIFICE_ITEM>
+			<ITEM id="200007"/>
+			<ITEM id="200019"/>
+		</SACRIFICE_ITEM>
+		<MAP random="false">
+			<SECTOR id="304"/>
+			<SECTOR id="305"/>
+			<SECTOR id="306"/>
+			<SECTOR id="307"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="31">
+				<NPC id="32" rate="0.30"/>
+				<NPC id="33" rate="0.20"/>
+			</ROUND>
+			<ROUND base_npcid="32">
+				<NPC id="33" rate="0.30"/>
+			</ROUND>
+			<ROUND base_npcid="31">
+				<NPC id="32" rate="0.40"/>
+				<NPC id="33" rate="0.40"/>
+			</ROUND>
+			<ROUND base_npcid="31" infinite="true">
+				<NPC id="32" rate="0.20"/>
+				<NPC id="33" rate="0.30"/>
+				<NPC id="35" rate="0.30"/>
+				<NPC id="41" rate="0.0001"/>
+				<NPC id="38" boss="true"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Dungeon Lv.6 : Lich -->
+	<SCENARIO id="33" lv="1" map="Dungeon" xp="12000" bp="1000" round="4" npc_count="30">
+		<SACRIFICE_ITEM>
+			<ITEM id="200010"/>
+			<ITEM id="200028"/>
+		</SACRIFICE_ITEM>
+		<MAP random="false">
+			<SECTOR id="306"/>
+			<SECTOR id="307"/>
+			<SECTOR id="308"/>
+			<SECTOR id="309"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="36">
+				<NPC id="31" rate="0.10"/>
+				<NPC id="32" rate="0.20"/>
+				<NPC id="33" rate="0.40"/>
+			</ROUND>
+			<ROUND base_npcid="36">
+				<NPC id="32" rate="0.20"/>
+				<NPC id="33" rate="0.40"/>
+				<NPC id="34" rate="0.10"/>
+			</ROUND>
+			<ROUND base_npcid="36">
+				<NPC id="32" rate="0.20"/>
+				<NPC id="33" rate="0.40"/>
+				<NPC id="35" rate="0.10"/>
+			</ROUND>
+			<ROUND base_npcid="31" infinite="true">
+				<NPC id="32" rate="0.30"/>
+				<NPC id="33" rate="0.30"/>
+				<NPC id="34" rate="0.08"/>
+				<NPC id="35" rate="0.08"/>
+				<NPC id="36" rate="0.10"/>
+				<NPC id="41" rate="0.0001"/>
+				<NPC id="39" boss="true"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Mansion Lv.2 : Palmpoa Commander -->
+	<SCENARIO id="41" lv="2" map="Mansion" xp="8000" bp="800" round="3" npc_count="30">
+		<SACRIFICE_ITEM>
+			<ITEM id="200021"/>
+			<ITEM id="200022"/>
+		</SACRIFICE_ITEM>
+		<MAP random="true">
+			<SECTOR id="101"/>
+			<SECTOR id="102"/>
+			<SECTOR id="103"/>
+			<SECTOR id="105"/>
+			<SECTOR id="106"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="48">
+				<NPC id="42" rate="0.20"/>
+			</ROUND>
+			<ROUND base_npcid="48">
+				<NPC id="42" rate="0.40"/>
+			</ROUND>
+			<ROUND base_npcid="48" infinite="false">
+				<NPC id="42" rate="0.50"/>
+				<NPC id="46" boss="true"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Prison Lv.2 : Palmpow -->
+	<SCENARIO id="42" lv="2" map="Prison" xp="10000" bp="1000" round="4" npc_count="30">
+		<SACRIFICE_ITEM>
+			<ITEM id="200020"/>
+			<ITEM id="200026"/>
+		</SACRIFICE_ITEM>
+		<MAP random="false">
+			<SECTOR id="202"/>
+			<SECTOR id="203"/>
+			<SECTOR id="204"/>
+			<SECTOR id="205"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="48">
+				<NPC id="42" rate="0.40"/>
+			</ROUND>
+			<ROUND base_npcid="48">
+				<NPC id="42" rate="0.40"/>
+				<NPC id="43" rate="0.20"/>
+			</ROUND>
+			<ROUND base_npcid="48">
+				<NPC id="42" rate="0.30"/>
+				<NPC id="43" rate="0.30"/>
+			</ROUND>
+			<ROUND base_npcid="48" infinite="false">
+				<NPC id="42" rate="0.30"/>
+				<NPC id="43" rate="0.30"/>
+				<NPC id="47" boss="true"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Dungeon Lv.2 : Cursed Palmpow -->
+	<SCENARIO id="43" lv="2" map="Dungeon" xp="12000" bp="1000" round="4" npc_count="30">
+		<SACRIFICE_ITEM>
+			<ITEM id="200019"/>
+			<ITEM id="200027"/>
+		</SACRIFICE_ITEM>
+		<MAP random="false">
+			<SECTOR id="306"/>
+			<SECTOR id="307"/>
+			<SECTOR id="308"/>
+			<SECTOR id="309"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="48">
+				<NPC id="42" rate="0.40"/>
+				<NPC id="43" rate="0.20"/>
+			</ROUND>
+			<ROUND base_npcid="48">
+				<NPC id="42" rate="0.30"/>
+				<NPC id="43" rate="0.30"/>
+			</ROUND>
+			<ROUND base_npcid="48">
+				<NPC id="42" rate="0.30"/>
+				<NPC id="43" rate="0.30"/>
+				<NPC id="44" rate="0.10"/>
+			</ROUND>
+			<ROUND base_npcid="48" infinite="false">
+				<NPC id="42" rate="0.30"/>
+				<NPC id="43" rate="0.30"/>
+				<NPC id="44" rate="0.10"/>
+				<NPC id="45" boss="true"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+</XML>

@@ -1,0 +1,266 @@
+<XML>
+	<GAMBLEITEM id="1000001" name="GambleItem Name" desc="GambleItem Description" price="1000" Currency="Bounty" shop="true">
+		<REWARDITEM maleid="1" femaleid="1" rentperiod="168" />
+		<REWARDITEM maleid="2" femaleid="2" rentperiod="168" />
+		<REWARDITEM maleid="31" femaleid="31" rentperiod="168" />
+		<REWARDITEM maleid="21001" femaleid="21501" rentperiod="72" />
+		<REWARDITEM maleid="23001" femaleid="23501" rentperiod="72" />
+	</GAMBLEITEM>
+
+	<GAMBLEITEM id="1000002" name="GambleItem2 Name" desc="GambleItem2 Description" price="3000" Currency="Cash" shop="false">
+		<REWARDITEM maleid="29001" femaleid="29501" rentperiod="48" />
+		<REWARDITEM maleid="530001" femaleid="530501" rentperiod="48" />
+		<REWARDITEM maleid="530002" femaleid="530502" rentperiod="48" />
+		<REWARDITEM maleid="530003" femaleid="530503" rentperiod="48" />
+		<REWARDITEM maleid="530004" femaleid="530504" rentperiod="48" />
+	</GAMBLEITEM>
+
+	<GAMBLEITEM id="1000003" name="GambleItem3 Name" desc="GambleItem3 Description" price="200" Currency="Bounty" shop="true">
+		<REWARDITEM maleid="40001" femaleid="40001" quantity="300" />
+		<REWARDITEM maleid="40101" femaleid="40101" quantity="300" />
+		<REWARDITEM maleid="40201" femaleid="40201" quantity="200" />
+		<REWARDITEM maleid="40301" femaleid="40301" quantity="200" />
+		<REWARDITEM maleid="40401" femaleid="40401" quantity="500" />
+		<REWARDITEM maleid="40501" femaleid="40501" quantity="500" />
+		<REWARDITEM maleid="40601" femaleid="40601" quantity="500" />
+		<REWARDITEM maleid="40701" femaleid="40701" quantity="100" />
+	</GAMBLEITEM>
+
+	<GAMBLEITEM id="1000004" name="Gold Box" desc="Gold Box" price="1000" Currency="Bounty" shop="true">
+		<REWARDITEM maleid="8" femaleid="8" rentperiod="168" />
+		<REWARDITEM maleid="18" femaleid="18" rentperiod="168" />
+		<REWARDITEM maleid="35" femaleid="35" rentperiod="168" />
+		<REWARDITEM maleid="4021" femaleid="4021" rentperiod="168" />
+		<REWARDITEM maleid="4022" femaleid="4022" rentperiod="168" />
+		<REWARDITEM maleid="4515" femaleid="4515" rentperiod="168" />
+		<REWARDITEM maleid="4516" femaleid="4516" rentperiod="168" />
+		<REWARDITEM maleid="5019" femaleid="5019" rentperiod="168" />
+		<REWARDITEM maleid="5020" femaleid="5020" rentperiod="168" />
+		<REWARDITEM maleid="6008" femaleid="6008" rentperiod="168" />
+		<REWARDITEM maleid="7009" femaleid="7009" rentperiod="168" />
+		<REWARDITEM maleid="8004" femaleid="8004" rentperiod="168" />
+		<REWARDITEM maleid="9007" femaleid="9007" rentperiod="168" />
+		<REWARDITEM maleid="21009" femaleid="21509" rentperiod="360" />
+		<REWARDITEM maleid="21010" femaleid="21510" rentperiod="360" />
+		<REWARDITEM maleid="22006" femaleid="22506" rentperiod="360" />
+		<REWARDITEM maleid="22007" femaleid="22507" rentperiod="360" />
+		<REWARDITEM maleid="23008" femaleid="23511" rentperiod="360" />
+		<REWARDITEM maleid="23009" femaleid="23512" rentperiod="360" />
+		<REWARDITEM maleid="24007" femaleid="24507" rentperiod="360" />
+		<REWARDITEM maleid="24008" femaleid="24508" rentperiod="360" />
+	</GAMBLEITEM>
+
+	<GAMBLEITEM id="1000005" name="Quest Rare Item Box" desc="This box contains rare items that taken from boss monsters." price="20000" Currency="Bounty" shop="true">
+		<REWARDITEM maleid="400501" femaleid="400501" rentperiod="120" />
+		<REWARDITEM maleid="400502" femaleid="400502" rentperiod="120" />
+		<REWARDITEM maleid="400503" femaleid="400504" rentperiod="120" />
+		<REWARDITEM maleid="400505" femaleid="400506" rentperiod="120" />
+		<REWARDITEM maleid="400507" femaleid="400507" rentperiod="120" />
+		<REWARDITEM maleid="400508" femaleid="400508" rentperiod="120" />
+		<REWARDITEM maleid="400509" femaleid="400510" rentperiod="120" />
+		<REWARDITEM maleid="400511" femaleid="400512" rentperiod="120" />
+		<REWARDITEM maleid="400513" femaleid="400513" rentperiod="120" />
+		<REWARDITEM maleid="400514" femaleid="400514" rentperiod="120" />
+		<REWARDITEM maleid="400515" femaleid="400516" rentperiod="120" />
+		<REWARDITEM maleid="400517" femaleid="400518" rentperiod="120" />
+		<REWARDITEM maleid="400519" femaleid="400519" rentperiod="120" />
+		<REWARDITEM maleid="400520" femaleid="400521" rentperiod="120" />
+		<REWARDITEM maleid="400522" femaleid="400522" rentperiod="120" />
+		<REWARDITEM maleid="400523" femaleid="400524" rentperiod="120" />
+		<REWARDITEM maleid="400525" femaleid="400525" rentperiod="120" />
+		<REWARDITEM maleid="400526" femaleid="400527" rentperiod="120" />
+		<REWARDITEM maleid="400528" femaleid="400528" rentperiod="120" />
+		<REWARDITEM maleid="400529" femaleid="400530" rentperiod="120" />
+		<REWARDITEM maleid="400531" femaleid="400531" rentperiod="120" />
+		<REWARDITEM maleid="400532" femaleid="400533" rentperiod="120" />
+	</GAMBLEITEM>
+
+	<GAMBLEITEM id="1000006" name="Medal Coupon Box" desc="You will receive a medal coupon from this box." price="0" Currency="Bounty" shop="false">
+		<REWARDITEM maleid="405201" femaleid="405201" />
+		<REWARDITEM maleid="405202" femaleid="405202" />
+		<REWARDITEM maleid="405203" femaleid="405203" />
+	</GAMBLEITEM>
+
+<!-- ID 3000001 or greater, is Challenge Quest reward. -->
+	<GAMBLEITEM id="3000001" name="GambleItem4 Name" desc="GambleItem4 Description" price="500" Currency="Bounty" shop="false">
+		<REWARDITEM maleid="5002" femaleid="5002" rentperiod="168" />
+		<REWARDITEM maleid="4006" femaleid="4006" rentperiod="168" />
+		<REWARDITEM maleid="30301" femaleid="30301" rentperiod="168" />
+	</GAMBLEITEM>
+
+<!-- Challenge Quest's reward gamble items. -->
+	<GAMBLEITEM id="3000101" name="Rebel's Secret Weapon" desc="[Rebel Arsenal] Challenge Quest reward item." price="0" Currency="Bounty" shop="false">
+		<REWARDITEM maleid="405001" femaleid="405001" />
+		<REWARDITEM maleid="405101" femaleid="405101" />
+		<REWARDITEM maleid="405102" femaleid="405102" />
+		<REWARDITEM maleid="405103" femaleid="405103" />
+		<REWARDITEM maleid="405104" femaleid="405104" />
+		<REWARDITEM maleid="405105" femaleid="405105" />
+		<REWARDITEM maleid="500001" femaleid="500001" rentperiod="24" />
+		<REWARDITEM maleid="502001" femaleid="502001" rentperiod="24" />
+		<REWARDITEM maleid="504001" femaleid="504001" rentperiod="24" />
+		<REWARDITEM maleid="504501" femaleid="504501" rentperiod="24" />
+		<REWARDITEM maleid="505001" femaleid="505001" rentperiod="24" />
+		<REWARDITEM maleid="506001" femaleid="506001" rentperiod="24" />
+		<REWARDITEM maleid="507001" femaleid="507001" rentperiod="24" />
+		<REWARDITEM maleid="508003" femaleid="508003" rentperiod="24" />
+		<REWARDITEM maleid="509001" femaleid="509001" rentperiod="24" />
+		<REWARDITEM maleid="520090" femaleid="520590" rentperiod="24" />
+		<REWARDITEM maleid="520092" femaleid="520592" rentperiod="24" />
+		<REWARDITEM maleid="522063" femaleid="522563" rentperiod="24" />
+		<REWARDITEM maleid="524066" femaleid="524566" rentperiod="24" />
+		<REWARDITEM maleid="530001" femaleid="530501" rentperiod="24" />
+	</GAMBLEITEM>
+
+	<GAMBLEITEM id="3000201" name="Rebel's Accessory" desc="[Rebel Secret Base] Challenge Quest reward item." price="0" Currency="Bounty" shop="false">
+		<REWARDITEM maleid="405002" femaleid="405002" />
+		<REWARDITEM maleid="405101" femaleid="405101" />
+		<REWARDITEM maleid="405102" femaleid="405102" />
+		<REWARDITEM maleid="405103" femaleid="405103" />
+		<REWARDITEM maleid="405104" femaleid="405104" />
+		<REWARDITEM maleid="405105" femaleid="405105" />
+		<REWARDITEM maleid="500003" femaleid="500003" rentperiod="24" />
+		<REWARDITEM maleid="502003" femaleid="502003" rentperiod="24" />
+		<REWARDITEM maleid="504002" femaleid="504002" rentperiod="24" />
+		<REWARDITEM maleid="504502" femaleid="504502" rentperiod="24" />
+		<REWARDITEM maleid="505002" femaleid="505002" rentperiod="24" />
+		<REWARDITEM maleid="506004" femaleid="506004" rentperiod="24" />
+		<REWARDITEM maleid="507002" femaleid="507002" rentperiod="24" />
+		<REWARDITEM maleid="508003" femaleid="508003" rentperiod="24" />
+		<REWARDITEM maleid="509002" femaleid="509002" rentperiod="24" />
+		<REWARDITEM maleid="520093" femaleid="520593" rentperiod="24" />
+		<REWARDITEM maleid="521073" femaleid="521573" rentperiod="24" />
+		<REWARDITEM maleid="523067" femaleid="523567" rentperiod="24" />
+		<REWARDITEM maleid="530002" femaleid="530502" rentperiod="24" />
+	</GAMBLEITEM>
+
+	<GAMBLEITEM id="3000301" name="Rebel's Treasure" desc="[Rebel Command post] Challenge Quest reward item." price="0" Currency="Bounty" shop="false">
+		<REWARDITEM maleid="405003" femaleid="405003" />
+		<REWARDITEM maleid="405101" femaleid="405101" />
+		<REWARDITEM maleid="405102" femaleid="405102" />
+		<REWARDITEM maleid="405103" femaleid="405103" />
+		<REWARDITEM maleid="405104" femaleid="405104" />
+		<REWARDITEM maleid="405105" femaleid="405105" />
+		<REWARDITEM maleid="500005" femaleid="500005" rentperiod="48" />
+		<REWARDITEM maleid="502008" femaleid="502008" rentperiod="48" />
+		<REWARDITEM maleid="504004" femaleid="504004" rentperiod="48" />
+		<REWARDITEM maleid="504503" femaleid="504503" rentperiod="48" />
+		<REWARDITEM maleid="505003" femaleid="505003" rentperiod="48" />
+		<REWARDITEM maleid="506011" femaleid="506011" rentperiod="48" />
+		<REWARDITEM maleid="507003" femaleid="507003" rentperiod="48" />
+		<REWARDITEM maleid="508001" femaleid="508001" rentperiod="48" />
+		<REWARDITEM maleid="509005" femaleid="509005" rentperiod="48" />
+		<REWARDITEM maleid="520094" femaleid="520594" rentperiod="48" />
+		<REWARDITEM maleid="520098" femaleid="520598" rentperiod="48" />
+		<REWARDITEM maleid="522066" femaleid="522566" rentperiod="48" />
+		<REWARDITEM maleid="524069" femaleid="524569" rentperiod="48" />
+		<REWARDITEM maleid="530004" femaleid="530504" rentperiod="48" />
+	</GAMBLEITEM>
+
+	<GAMBLEITEM id="3000401" name="Rebel's Heritage" desc="[Suppress the Rebellion] Challenge Quest reward item." price="0" Currency="Bounty" shop="false">
+		<REWARDITEM maleid="405004" femaleid="405004" />
+		<REWARDITEM maleid="405101" femaleid="405101" />
+		<REWARDITEM maleid="405102" femaleid="405102" />
+		<REWARDITEM maleid="405103" femaleid="405103" />
+		<REWARDITEM maleid="405104" femaleid="405104" />
+		<REWARDITEM maleid="405105" femaleid="405105" />
+		<REWARDITEM maleid="500007" femaleid="500007" rentperiod="72" />
+		<REWARDITEM maleid="502011" femaleid="502011" rentperiod="72" />
+		<REWARDITEM maleid="504006" femaleid="504006" rentperiod="72" />
+		<REWARDITEM maleid="504505" femaleid="504505" rentperiod="72" />
+		<REWARDITEM maleid="505004" femaleid="505004" rentperiod="72" />
+		<REWARDITEM maleid="506007" femaleid="506007" rentperiod="72" />
+		<REWARDITEM maleid="507004" femaleid="507004" rentperiod="72" />
+		<REWARDITEM maleid="508002" femaleid="508002" rentperiod="72" />
+		<REWARDITEM maleid="509008" femaleid="509008" rentperiod="72" />
+		<REWARDITEM maleid="520095" femaleid="520595" rentperiod="72" />
+		<REWARDITEM maleid="521076" femaleid="521576" rentperiod="72" />
+		<REWARDITEM maleid="523070" femaleid="523570" rentperiod="72" />
+		<REWARDITEM maleid="530005" femaleid="530505" rentperiod="72" />
+	</GAMBLEITEM>
+
+	<GAMBLEITEM id="3000102" name="Test's Payment (C)" desc="[Test Room C] Challenge Quest reward item." price="0" Currency="Bounty" shop="false">
+		<REWARDITEM maleid="405001" femaleid="405001" />
+		<REWARDITEM maleid="405101" femaleid="405101" />
+		<REWARDITEM maleid="405102" femaleid="405102" />
+		<REWARDITEM maleid="405103" femaleid="405103" />
+		<REWARDITEM maleid="405104" femaleid="405104" />
+		<REWARDITEM maleid="405105" femaleid="405105" />
+		<REWARDITEM maleid="500002" femaleid="500002" rentperiod="24" />
+		<REWARDITEM maleid="502002" femaleid="502002" rentperiod="24" />
+		<REWARDITEM maleid="504001" femaleid="504001" rentperiod="24" />
+		<REWARDITEM maleid="504501" femaleid="504501" rentperiod="24" />
+		<REWARDITEM maleid="505001" femaleid="505001" rentperiod="24" />
+		<REWARDITEM maleid="506002" femaleid="506002" rentperiod="24" />
+		<REWARDITEM maleid="507001" femaleid="507001" rentperiod="24" />
+		<REWARDITEM maleid="508003" femaleid="508003" rentperiod="24" />
+		<REWARDITEM maleid="509001" femaleid="509001" rentperiod="24" />
+		<REWARDITEM maleid="520076" femaleid="520576" rentperiod="24" />
+		<REWARDITEM maleid="520083" femaleid="520583" rentperiod="24" />
+		<REWARDITEM maleid="530003" femaleid="530503" rentperiod="24" />
+	</GAMBLEITEM>
+
+	<GAMBLEITEM id="3000202" name="Test's Payment (B)" desc="[Test Room B] Challenge Quest reward item." price="0" Currency="Bounty" shop="false">
+		<REWARDITEM maleid="405002" femaleid="405002" />
+		<REWARDITEM maleid="405101" femaleid="405101" />
+		<REWARDITEM maleid="405102" femaleid="405102" />
+		<REWARDITEM maleid="405103" femaleid="405103" />
+		<REWARDITEM maleid="405104" femaleid="405104" />
+		<REWARDITEM maleid="405105" femaleid="405105" />
+		<REWARDITEM maleid="500004" femaleid="500004" rentperiod="24" />
+		<REWARDITEM maleid="502006" femaleid="502006" rentperiod="24" />
+		<REWARDITEM maleid="504003" femaleid="504003" rentperiod="24" />
+		<REWARDITEM maleid="504502" femaleid="504502" rentperiod="24" />
+		<REWARDITEM maleid="505002" femaleid="505002" rentperiod="24" />
+		<REWARDITEM maleid="506008" femaleid="506008" rentperiod="24" />
+		<REWARDITEM maleid="507002" femaleid="507002" rentperiod="24" />
+		<REWARDITEM maleid="508001" femaleid="508001" rentperiod="24" />
+		<REWARDITEM maleid="509003" femaleid="509003" rentperiod="24" />
+		<REWARDITEM maleid="520082" femaleid="520582" rentperiod="24" />
+		<REWARDITEM maleid="522061" femaleid="522561" rentperiod="24" />
+		<REWARDITEM maleid="530003" femaleid="530503" rentperiod="24" />
+	</GAMBLEITEM>
+
+	<GAMBLEITEM id="3000302" name="Test's Payment (A)" desc="[Test Room A] Challenge Quest reward item." price="0" Currency="Bounty" shop="false">
+		<REWARDITEM maleid="405003" femaleid="405003" />
+		<REWARDITEM maleid="405101" femaleid="405101" />
+		<REWARDITEM maleid="405102" femaleid="405102" />
+		<REWARDITEM maleid="405103" femaleid="405103" />
+		<REWARDITEM maleid="405104" femaleid="405104" />
+		<REWARDITEM maleid="405105" femaleid="405105" />
+		<REWARDITEM maleid="500006" femaleid="500006" rentperiod="48" />
+		<REWARDITEM maleid="502010" femaleid="502010" rentperiod="48" />
+		<REWARDITEM maleid="504005" femaleid="504005" rentperiod="48" />
+		<REWARDITEM maleid="504504" femaleid="504504" rentperiod="48" />
+		<REWARDITEM maleid="505003" femaleid="505003" rentperiod="48" />
+		<REWARDITEM maleid="506006" femaleid="506006" rentperiod="48" />
+		<REWARDITEM maleid="507003" femaleid="507003" rentperiod="48" />
+		<REWARDITEM maleid="508001" femaleid="508001" rentperiod="48" />
+		<REWARDITEM maleid="509007" femaleid="509007" rentperiod="48" />
+		<REWARDITEM maleid="520084" femaleid="520584" rentperiod="48" />
+		<REWARDITEM maleid="524064" femaleid="524564" rentperiod="48" />
+		<REWARDITEM maleid="530007" femaleid="530507" rentperiod="48" />
+	</GAMBLEITEM>
+
+	<GAMBLEITEM id="3000402" name="Secret Test's Payment" desc="[Secret Test Room] Challenge Quest reward item." price="0" Currency="Bounty" shop="false">
+		<REWARDITEM maleid="405004" femaleid="405004" />
+		<REWARDITEM maleid="405101" femaleid="405101" />
+		<REWARDITEM maleid="405102" femaleid="405102" />
+		<REWARDITEM maleid="405103" femaleid="405103" />
+		<REWARDITEM maleid="405104" femaleid="405104" />
+		<REWARDITEM maleid="405105" femaleid="405105" />
+		<REWARDITEM maleid="500008" femaleid="500008" rentperiod="72" />
+		<REWARDITEM maleid="502013" femaleid="502013" rentperiod="72" />
+		<REWARDITEM maleid="504007" femaleid="504007" rentperiod="72" />
+		<REWARDITEM maleid="504506" femaleid="504506" rentperiod="72" />
+		<REWARDITEM maleid="505005" femaleid="505005" rentperiod="72" />
+		<REWARDITEM maleid="506010" femaleid="506010" rentperiod="72" />
+		<REWARDITEM maleid="507004" femaleid="507004" rentperiod="72" />
+		<REWARDITEM maleid="508002" femaleid="508002" rentperiod="72" />
+		<REWARDITEM maleid="509009" femaleid="509009" rentperiod="72" />
+		<REWARDITEM maleid="520100" femaleid="520600" rentperiod="72" />
+		<REWARDITEM maleid="521071" femaleid="521571" rentperiod="72" />
+		<REWARDITEM maleid="523065" femaleid="523565" rentperiod="72" />
+		<REWARDITEM maleid="530026" femaleid="530526" rentperiod="72" />
+	</GAMBLEITEM>
+</XML>

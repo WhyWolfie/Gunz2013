@@ -1,0 +1,175 @@
+<XML>
+	<!-- 
+	     <SELL 
+	       itemid       = "Item ID to be selled." 
+	       stockrate    = "Selling rate (in percentage)."
+	       rentperiod   = "Rent period (hour). Set 0 for unlimited period." 
+	       price        = "Original price." 
+	       maxdc        = "Max price discount (in percentage)." 
+	       dcrate       = "Discounting rate (in percentage)." 
+	       coupon       = "Use raw price for selling (in bool - <false | true>)."
+	     />
+	 -->
+
+<!-- dagger. -->
+	<SELL itemid="500009" stockrate="0.30" rentperiod="480" price="60" maxdc="0" dcrate="0" />
+	<SELL itemid="500010" stockrate="0.20" rentperiod="480" price="140" maxdc="0" dcrate="0" />
+	<SELL itemid="500011" stockrate="0.10" rentperiod="480" price="450" maxdc="0" dcrate="0" />
+<!-- sword. -->
+	<SELL itemid="502019" stockrate="0.05" rentperiod="360" price="1400" maxdc="0" dcrate="0" />
+	<SELL itemid="502020" stockrate="0.30" rentperiod="480" price="60" maxdc="0" dcrate="0" />
+	<SELL itemid="502021" stockrate="0.20" rentperiod="480" price="140" maxdc="0" dcrate="0" />
+	<SELL itemid="502022" stockrate="0.10" rentperiod="480" price="450" maxdc="0" dcrate="0" />
+<!-- blade. -->
+	<SELL itemid="502023" stockrate="0.30" rentperiod="480" price="60" maxdc="0" dcrate="0" />
+	<SELL itemid="502024" stockrate="0.20" rentperiod="480" price="140" maxdc="0" dcrate="0" />
+	<SELL itemid="502025" stockrate="0.10" rentperiod="480" price="450" maxdc="0" dcrate="0" />
+	<!-- <SELL itemid="502026" stockrate="0.04" rentperiod="360" price="1400" maxdc="0" dcrate="0" /> -->
+<!-- pistol. -->
+	<SELL itemid="504008" stockrate="0.20" rentperiod="480" price="60" maxdc="0" dcrate="0" />
+	<SELL itemid="504009" stockrate="0.15" rentperiod="480" price="140" maxdc="0" dcrate="0" />
+	<SELL itemid="504010" stockrate="0.10" rentperiod="480" price="450" maxdc="0" dcrate="0" />
+<!-- revolver. -->
+	<SELL itemid="504507" stockrate="0.20" rentperiod="480" price="60" maxdc="0" dcrate="0" />
+	<SELL itemid="504508" stockrate="0.15" rentperiod="480" price="140" maxdc="0" dcrate="0" />
+	<SELL itemid="504509" stockrate="0.10" rentperiod="480" price="450" maxdc="0" dcrate="0" />
+<!-- sub-machinegun. -->
+	<SELL itemid="505006" stockrate="0.20" rentperiod="480" price="60" maxdc="0" dcrate="0" />
+	<SELL itemid="505007" stockrate="0.15" rentperiod="480" price="140" maxdc="0" dcrate="0" />
+	<SELL itemid="505008" stockrate="0.10" rentperiod="480" price="450" maxdc="0" dcrate="0" />
+<!-- shotgun. -->
+	<SELL itemid="506012" stockrate="0.20" rentperiod="480" price="60" maxdc="0" dcrate="0" />
+	<SELL itemid="506013" stockrate="0.15" rentperiod="480" price="140" maxdc="0" dcrate="0" />
+	<SELL itemid="506014" stockrate="0.10" rentperiod="480" price="450" maxdc="0" dcrate="0" />
+	<!-- <SELL itemid="506017" stockrate="0.04" rentperiod="360" price="1400" maxdc="0" dcrate="0" /> -->
+<!-- rifle. -->
+	<SELL itemid="507005" stockrate="0.20" rentperiod="480" price="60" maxdc="0" dcrate="0" />
+	<SELL itemid="507006" stockrate="0.15" rentperiod="480" price="140" maxdc="0" dcrate="0" />
+	<SELL itemid="507007" stockrate="0.10" rentperiod="480" price="450" maxdc="0" dcrate="0" />
+<!-- machinegun. -->
+	<SELL itemid="508004" stockrate="0.20" rentperiod="480" price="60" maxdc="0" dcrate="0" />
+	<SELL itemid="508005" stockrate="0.15" rentperiod="480" price="140" maxdc="0" dcrate="0" />
+	<SELL itemid="508006" stockrate="0.10" rentperiod="480" price="450" maxdc="0" dcrate="0" />
+<!-- rocket launcher. -->
+	<SELL itemid="509010" stockrate="0.20" rentperiod="480" price="60" maxdc="0" dcrate="0" />
+	<SELL itemid="509011" stockrate="0.15" rentperiod="480" price="140" maxdc="0" dcrate="0" />
+	<SELL itemid="509012" stockrate="0.10" rentperiod="480" price="450" maxdc="0" dcrate="0" />
+	<!-- <SELL itemid="509013" stockrate="0.04" rentperiod="360" price="1400" maxdc="0" dcrate="0" /> -->
+<!-- ring. -->
+	<SELL itemid="525009" stockrate="0.04" rentperiod="480" price="1000" maxdc="0.10" dcrate="0.85" />
+	<SELL itemid="525010" stockrate="0.01" rentperiod="480" price="1700" maxdc="0.10" dcrate="0.85" />
+	<SELL itemid="525011" stockrate="0.18" rentperiod="480" price="60" maxdc="0" dcrate="0" />
+	<SELL itemid="525012" stockrate="0.12" rentperiod="480" price="140" maxdc="0" dcrate="0" />
+	<SELL itemid="525013" stockrate="0.08" rentperiod="480" price="450" maxdc="0" dcrate="0" />
+<!-- head (male). -->
+	<SELL itemid="520105" stockrate="0.18" rentperiod="480" price="60" maxdc="0" dcrate="0" />
+	<SELL itemid="520106" stockrate="0.12" rentperiod="480" price="140" maxdc="0" dcrate="0" />
+	<SELL itemid="520107" stockrate="0.08" rentperiod="480" price="450" maxdc="0" dcrate="0" />
+	<SELL itemid="520109" stockrate="0.01" rentperiod="360" price="1000" maxdc="0.16" dcrate="0.70" />
+	<SELL itemid="520110" stockrate="0.01" rentperiod="360" price="1000" maxdc="0.16" dcrate="0.70" />
+	<SELL itemid="520111" stockrate="0.01" rentperiod="360" price="1000" maxdc="0.16" dcrate="0.70" />
+	<SELL itemid="520112" stockrate="0.01" rentperiod="360" price="1000" maxdc="0.16" dcrate="0.70" />
+	<SELL itemid="520113" stockrate="0.01" rentperiod="360" price="1000" maxdc="0.16" dcrate="0.70" />
+	<SELL itemid="520114" stockrate="0.01" rentperiod="360" price="1000" maxdc="0.16" dcrate="0.70" />
+	<SELL itemid="520115" stockrate="0.01" rentperiod="360" price="1000" maxdc="0.16" dcrate="0.70" />
+	<SELL itemid="520116" stockrate="0.01" rentperiod="360" price="1000" maxdc="0.16" dcrate="0.70" />
+	<SELL itemid="520117" stockrate="0.01" rentperiod="360" price="1000" maxdc="0.16" dcrate="0.70" />
+	<SELL itemid="520118" stockrate="0.01" rentperiod="360" price="1000" maxdc="0.16" dcrate="0.70" />
+	<!-- <SELL itemid="520121" stockrate="0.05" rentperiod="288" price="1200" maxdc="0.20" dcrate="0.65" /> -->
+<!-- head (female). -->
+	<SELL itemid="520605" stockrate="0.18" rentperiod="480" price="60" maxdc="0" dcrate="0" />
+	<SELL itemid="520606" stockrate="0.12" rentperiod="480" price="140" maxdc="0" dcrate="0" />
+	<SELL itemid="520607" stockrate="0.08" rentperiod="480" price="450" maxdc="0" dcrate="0" />
+	<SELL itemid="520609" stockrate="0.01" rentperiod="360" price="1000" maxdc="0.16" dcrate="0.70" />
+	<SELL itemid="520610" stockrate="0.01" rentperiod="360" price="1000" maxdc="0.16" dcrate="0.70" />
+	<SELL itemid="520611" stockrate="0.01" rentperiod="360" price="1000" maxdc="0.16" dcrate="0.70" />
+	<SELL itemid="520612" stockrate="0.01" rentperiod="360" price="1000" maxdc="0.16" dcrate="0.70" />
+	<SELL itemid="520613" stockrate="0.01" rentperiod="360" price="1000" maxdc="0.16" dcrate="0.70" />
+	<SELL itemid="520614" stockrate="0.01" rentperiod="360" price="1000" maxdc="0.16" dcrate="0.70" />
+	<SELL itemid="520615" stockrate="0.01" rentperiod="360" price="1000" maxdc="0.16" dcrate="0.70" />
+	<SELL itemid="520616" stockrate="0.01" rentperiod="360" price="1000" maxdc="0.16" dcrate="0.70" />
+	<SELL itemid="520617" stockrate="0.01" rentperiod="360" price="1000" maxdc="0.16" dcrate="0.70" />
+	<SELL itemid="520618" stockrate="0.01" rentperiod="360" price="1000" maxdc="0.16" dcrate="0.70" />
+	<!-- <SELL itemid="520621" stockrate="0.05" rentperiod="288" price="1200" maxdc="0.20" dcrate="0.65" /> -->
+<!-- chest (male). -->
+	<SELL itemid="521080" stockrate="0.18" rentperiod="480" price="60" maxdc="0" dcrate="0" />
+	<SELL itemid="521081" stockrate="0.12" rentperiod="480" price="140" maxdc="0" dcrate="0" />
+	<SELL itemid="521082" stockrate="0.08" rentperiod="480" price="450" maxdc="0" dcrate="0" />
+	<!-- <SELL itemid="521084" stockrate="0.05" rentperiod="288" price="1200" maxdc="0.20" dcrate="0.65" /> -->
+<!-- chest (female). -->
+	<SELL itemid="521580" stockrate="0.18" rentperiod="480" price="60" maxdc="0" dcrate="0" />
+	<SELL itemid="521581" stockrate="0.12" rentperiod="480" price="140" maxdc="0" dcrate="0" />
+	<SELL itemid="521582" stockrate="0.08" rentperiod="480" price="450" maxdc="0" dcrate="0" />
+	<!-- <SELL itemid="521584" stockrate="0.05" rentperiod="288" price="1200" maxdc="0.20" dcrate="0.65" /> -->
+<!-- hands (male). -->
+	<SELL itemid="522072" stockrate="0.18" rentperiod="480" price="60" maxdc="0" dcrate="0" />
+	<SELL itemid="522073" stockrate="0.12" rentperiod="480" price="140" maxdc="0" dcrate="0" />
+	<SELL itemid="522074" stockrate="0.08" rentperiod="480" price="450" maxdc="0" dcrate="0" />
+	<SELL itemid="522075" stockrate="0.10" rentperiod="480" price="300" maxdc="0" dcrate="0" />
+	<SELL itemid="522076" stockrate="0.06" rentperiod="480" price="650" maxdc="0" dcrate="0" />
+	<!-- <SELL itemid="522078" stockrate="0.04" rentperiod="480" price="900" maxdc="0" dcrate="0" /> -->
+	<!-- <SELL itemid="522079" stockrate="0.05" rentperiod="288" price="1200" maxdc="0.20" dcrate="0.65" /> -->
+<!-- hands (female). -->
+	<SELL itemid="522572" stockrate="0.18" rentperiod="480" price="60" maxdc="0" dcrate="0" />
+	<SELL itemid="522573" stockrate="0.12" rentperiod="480" price="140" maxdc="0" dcrate="0" />
+	<SELL itemid="522574" stockrate="0.08" rentperiod="480" price="450" maxdc="0" dcrate="0" />
+	<SELL itemid="522575" stockrate="0.10" rentperiod="480" price="300" maxdc="0" dcrate="0" />
+	<SELL itemid="522576" stockrate="0.06" rentperiod="480" price="650" maxdc="0" dcrate="0" />
+	<!-- <SELL itemid="522578" stockrate="0.04" rentperiod="480" price="900" maxdc="0" dcrate="0" /> -->
+	<!-- <SELL itemid="522579" stockrate="0.05" rentperiod="288" price="1200" maxdc="0.20" dcrate="0.65" /> -->
+<!-- legs (male). -->
+	<SELL itemid="523074" stockrate="0.18" rentperiod="480" price="60" maxdc="0" dcrate="0" />
+	<SELL itemid="523075" stockrate="0.12" rentperiod="480" price="140" maxdc="0" dcrate="0" />
+	<SELL itemid="523076" stockrate="0.08" rentperiod="480" price="450" maxdc="0" dcrate="0" />
+	<!-- <SELL itemid="523078" stockrate="0.05" rentperiod="288" price="1200" maxdc="0.20" dcrate="0.65" /> -->
+<!-- legs (female). -->
+	<SELL itemid="523574" stockrate="0.18" rentperiod="480" price="60" maxdc="0" dcrate="0" />
+	<SELL itemid="523575" stockrate="0.12" rentperiod="480" price="140" maxdc="0" dcrate="0" />
+	<SELL itemid="523576" stockrate="0.08" rentperiod="480" price="450" maxdc="0" dcrate="0" />
+	<!-- <SELL itemid="523578" stockrate="0.05" rentperiod="288" price="1200" maxdc="0.20" dcrate="0.65" /> -->
+<!-- feets (male). -->
+	<SELL itemid="524073" stockrate="0.18" rentperiod="480" price="60" maxdc="0" dcrate="0" />
+	<SELL itemid="524074" stockrate="0.12" rentperiod="480" price="140" maxdc="0" dcrate="0" />
+	<SELL itemid="524075" stockrate="0.08" rentperiod="480" price="450" maxdc="0" dcrate="0" />
+	<!-- <SELL itemid="524077" stockrate="0.05" rentperiod="288" price="1200" maxdc="0.20" dcrate="0.65" /> -->
+<!-- feets (female). -->
+	<SELL itemid="524573" stockrate="0.18" rentperiod="480" price="60" maxdc="0" dcrate="0" />
+	<SELL itemid="524574" stockrate="0.12" rentperiod="480" price="140" maxdc="0" dcrate="0" />
+	<SELL itemid="524575" stockrate="0.08" rentperiod="480" price="450" maxdc="0" dcrate="0" />
+	<!-- <SELL itemid="524577" stockrate="0.05" rentperiod="288" price="1200" maxdc="0.20" dcrate="0.65" /> -->
+<!-- avatar (male). -->
+	<SELL itemid="530015" stockrate="0.01" rentperiod="240" price="2000" maxdc="0.18" dcrate="0.50" />
+	<SELL itemid="530016" stockrate="0.01" rentperiod="240" price="2000" maxdc="0.18" dcrate="0.50" />
+	<SELL itemid="530017" stockrate="0.01" rentperiod="240" price="2000" maxdc="0.18" dcrate="0.50" />
+	<SELL itemid="530018" stockrate="0.01" rentperiod="240" price="2000" maxdc="0.18" dcrate="0.50" />
+	<SELL itemid="530019" stockrate="0.01" rentperiod="240" price="2000" maxdc="0.18" dcrate="0.50" />
+	<SELL itemid="530020" stockrate="0.01" rentperiod="240" price="2000" maxdc="0.18" dcrate="0.50" />
+	<SELL itemid="530021" stockrate="0.01" rentperiod="240" price="2000" maxdc="0.18" dcrate="0.50" />
+	<SELL itemid="530022" stockrate="0.01" rentperiod="240" price="2000" maxdc="0.18" dcrate="0.50" />
+	<SELL itemid="530023" stockrate="0.01" rentperiod="240" price="2000" maxdc="0.18" dcrate="0.50" />
+<!-- avatar (female). -->
+	<SELL itemid="530515" stockrate="0.01" rentperiod="240" price="2000" maxdc="0.18" dcrate="0.50" />
+	<SELL itemid="530516" stockrate="0.01" rentperiod="240" price="2000" maxdc="0.18" dcrate="0.50" />
+	<SELL itemid="530517" stockrate="0.01" rentperiod="240" price="2000" maxdc="0.18" dcrate="0.50" />
+	<SELL itemid="530518" stockrate="0.01" rentperiod="240" price="2000" maxdc="0.18" dcrate="0.50" />
+	<SELL itemid="530519" stockrate="0.01" rentperiod="240" price="2000" maxdc="0.18" dcrate="0.50" />
+	<SELL itemid="530520" stockrate="0.01" rentperiod="240" price="2000" maxdc="0.18" dcrate="0.50" />
+	<SELL itemid="530521" stockrate="0.01" rentperiod="240" price="2000" maxdc="0.18" dcrate="0.50" />
+	<SELL itemid="530522" stockrate="0.01" rentperiod="240" price="2000" maxdc="0.18" dcrate="0.50" />
+	<SELL itemid="530523" stockrate="0.01" rentperiod="240" price="2000" maxdc="0.18" dcrate="0.50" />
+<!-- medal coupon (no stocks). -->
+	<SELL itemid="405201" stockrate="0" rentperiod="0" price="5" maxdc="0" dcrate="0" coupon="true" />
+	<SELL itemid="405202" stockrate="0" rentperiod="0" price="15" maxdc="0" dcrate="0" coupon="true" />
+	<SELL itemid="405203" stockrate="0" rentperiod="0" price="40" maxdc="0" dcrate="0" coupon="true" />
+	<SELL itemid="405204" stockrate="0" rentperiod="0" price="800" maxdc="0" dcrate="0" coupon="true" />
+	<SELL itemid="405205" stockrate="0" rentperiod="0" price="1800" maxdc="0" dcrate="0" coupon="true" />
+	<SELL itemid="405206" stockrate="0" rentperiod="0" price="3000" maxdc="0" dcrate="0" coupon="true" />
+<!-- blitz skill manual. -->
+	<SELL itemid="900000" stockrate="0.12" rentperiod="600" price="500" maxdc="0.20" dcrate="0.30" />
+	<SELL itemid="900001" stockrate="0.12" rentperiod="600" price="500" maxdc="0.20" dcrate="0.30" />
+	<SELL itemid="900002" stockrate="0.12" rentperiod="600" price="500" maxdc="0.20" dcrate="0.30" />
+	<SELL itemid="900003" stockrate="0.12" rentperiod="600" price="500" maxdc="0.20" dcrate="0.30" />
+	<SELL itemid="900004" stockrate="0.12" rentperiod="600" price="500" maxdc="0.20" dcrate="0.30" />
+	<SELL itemid="900005" stockrate="0.12" rentperiod="600" price="500" maxdc="0.20" dcrate="0.30" />
+
+</XML>

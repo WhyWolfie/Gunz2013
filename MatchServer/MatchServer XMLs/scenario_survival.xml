@@ -1,0 +1,161 @@
+<XML>
+	<EXP rate="50" bp_rate="40"/>
+
+<!-- 
+	Survival Scenario IDs :
+	  20001 - Mansion, 
+	  20002 - Prison, 
+	  20003 - Dungeon.
+ -->
+
+<!-- Mansion. -->
+	<SCENARIO id="20001" lv="1" map="Mansion" xp="160" bp="16" round="5" round_repeat="20" npc_count="30">
+		<MAP random="false">
+			<SECTOR id="109"/>
+			<SECTOR id="108"/>
+			<SECTOR id="105"/>
+			<SECTOR id="103"/>
+			<SECTOR id="102"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="155">
+				<NPC id="151" rate="0.25"/>
+				<NPC id="152" rate="0.25"/>
+				<NPC id="153" rate="0.20"/>
+				<NPC id="154" rate="0.15"/>
+				<NPC id="141" boss="true"/>
+			</ROUND>
+			<ROUND base_npcid="155">
+				<NPC id="151" rate="0.20"/>
+				<NPC id="152" rate="0.20"/>
+				<NPC id="153" rate="0.20"/>
+				<NPC id="154" rate="0.20"/>
+				<NPC id="142" boss="true"/>
+			</ROUND>
+			<ROUND base_npcid="158">
+				<NPC id="151" rate="0.10"/>
+				<NPC id="152" rate="0.10"/>
+				<NPC id="153" rate="0.20"/>
+				<NPC id="154" rate="0.20"/>
+				<NPC id="155" rate="0.20"/>
+				<NPC id="157" rate="0.10"/>
+				<NPC id="156" boss="true"/>
+			</ROUND>
+			<ROUND base_npcid="158">
+				<NPC id="151" rate="0.05"/>
+				<NPC id="152" rate="0.05"/>
+				<NPC id="153" rate="0.20"/>
+				<NPC id="154" rate="0.20"/>
+				<NPC id="155" rate="0.20"/>
+				<NPC id="157" rate="0.15"/>
+				<NPC id="159" boss="true"/>
+			</ROUND>
+			<ROUND base_npcid="156">
+				<NPC id="151" rate="0.05"/>
+				<NPC id="152" rate="0.05"/>
+				<NPC id="153" rate="0.20"/>
+				<NPC id="154" rate="0.20"/>
+				<NPC id="155" rate="0.20"/>
+				<NPC id="157" rate="0.15"/>
+				<NPC id="158" rate="0.14"/>
+				<NPC id="159" boss="true"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Prison. -->
+	<SCENARIO id="20002" lv="1" map="Prison" xp="160" bp="16" round="5" round_repeat="20" npc_count="30">
+		<MAP random="false">
+			<SECTOR id="209"/>
+			<SECTOR id="206"/>
+			<SECTOR id="208"/>
+			<SECTOR id="207"/>
+			<SECTOR id="205"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="163">
+				<NPC id="161" rate="0.40"/>
+				<NPC id="162" rate="0.40"/>
+				<NPC id="143" boss="true"/>
+			</ROUND>
+			<ROUND base_npcid="163">
+				<NPC id="161" rate="0.35"/>
+				<NPC id="162" rate="0.35"/>
+				<NPC id="144" boss="true"/>
+			</ROUND>
+			<ROUND base_npcid="164">
+				<NPC id="161" rate="0.25"/>
+				<NPC id="162" rate="0.25"/>
+				<NPC id="163" rate="0.25"/>
+				<NPC id="165" boss="true"/>
+			</ROUND>
+			<ROUND base_npcid="164">
+				<NPC id="161" rate="0.20"/>
+				<NPC id="162" rate="0.20"/>
+				<NPC id="163" rate="0.30"/>
+				<NPC id="167" boss="true"/>
+			</ROUND>
+			<ROUND base_npcid="165">
+				<NPC id="161" rate="0.20"/>
+				<NPC id="162" rate="0.20"/>
+				<NPC id="163" rate="0.30"/>
+				<NPC id="164" rate="0.29"/>
+				<NPC id="166" boss="true"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+
+<!-- Dungeon. -->
+	<SCENARIO id="20003" lv="1" map="Dungeon" xp="160" bp="16" round="5" round_repeat="20" npc_count="30">
+		<MAP random="false">
+			<SECTOR id="308"/>
+			<SECTOR id="305"/>
+			<SECTOR id="304"/>
+			<SECTOR id="306"/>
+			<SECTOR id="309"/>
+		</MAP>
+		<NPCSET>
+			<ROUND base_npcid="176">
+				<NPC id="171" rate="0.25"/>
+				<NPC id="172" rate="0.25"/>
+				<NPC id="173" rate="0.20"/>
+				<NPC id="174" rate="0.20"/>
+				<NPC id="145" boss="true"/>
+			</ROUND>
+			<ROUND base_npcid="176">
+				<NPC id="171" rate="0.20"/>
+				<NPC id="172" rate="0.20"/>
+				<NPC id="173" rate="0.20"/>
+				<NPC id="174" rate="0.20"/>
+				<NPC id="175" rate="0.10"/>
+				<NPC id="177" boss="true"/>
+			</ROUND>
+			<ROUND base_npcid="176">
+				<NPC id="171" rate="0.15"/>
+				<NPC id="172" rate="0.15"/>
+				<NPC id="173" rate="0.20"/>
+				<NPC id="174" rate="0.20"/>
+				<NPC id="175" rate="0.15"/>
+				<NPC id="178" boss="true"/>
+			</ROUND>
+			<ROUND base_npcid="176">
+				<NPC id="171" rate="0.10"/>
+				<NPC id="172" rate="0.10"/>
+				<NPC id="173" rate="0.25"/>
+				<NPC id="174" rate="0.25"/>
+				<NPC id="175" rate="0.15"/>
+				<NPC id="179" boss="true"/>
+			</ROUND>
+			<ROUND base_npcid="178">
+				<NPC id="171" rate="0.10"/>
+				<NPC id="172" rate="0.10"/>
+				<NPC id="173" rate="0.25"/>
+				<NPC id="174" rate="0.25"/>
+				<NPC id="175" rate="0.14"/>
+				<NPC id="176" rate="0.14"/>
+				<NPC id="177" rate="0.01"/>
+				<NPC id="180" boss="true"/>
+			</ROUND>
+		</NPCSET>
+	</SCENARIO>
+</XML>

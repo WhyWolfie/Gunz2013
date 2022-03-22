@@ -1,0 +1,7 @@
+<XML>
+
+<!-- Battle remaining timer. -->
+	<STR id="1">制限時間 : 残り%lu秒です。</STR>
+	<STR id="2">制限時間 : 残り%lu分%lu秒です。</STR>
+
+</XML>

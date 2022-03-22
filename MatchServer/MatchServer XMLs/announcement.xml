@@ -1,0 +1,22 @@
+<XML>
+	<ANNOUNCECONFIG use="true" announce_id="0" />
+
+	<ANNOUNCEMENT id="0">
+		<ANNOUNCE text="これは自動的にサーバー内で放送される文章の一例です。" waitsec="3" />
+		<ANNOUNCE text="ゲーム内で新着情報やアップデート内容などを放送することができます。" waitsec="5" />
+		<ANNOUNCE text="文章に'NULL' を書くと、その文章は無視されます。" waitsec="3" />
+		<ANNOUNCE text="待機秒だけ読み込ませる場合に'NULL' は便利です。" waitsec="3" />
+		<ANNOUNCE text="もちろん、上記のように文章と待機秒を組み合わせることも可能です。" waitsec="5" />
+		<ANNOUNCE text="放送する文章はいくつでも残しておくことができます。" waitsec="3" />
+		<ANNOUNCE text="要素'ANNOUNCECONFIG' にある属性'announce_id' の値を変えることによって、どの文章を読み込むかを指定できます。" waitsec="5" />
+		<ANNOUNCE text="もしこの自動放送機能を使わない場合、このファイルを削除するか、要素'ANNOUNCECONFIG' の属性'use' を'false' にしてください。" waitsec="5" />
+		<ANNOUNCE text="1分後に再びこの放送を繰り返します。" waitsec="0" />
+		<ANNOUNCE text="NULL" waitsec="60" />
+	</ANNOUNCEMENT>
+
+	<ANNOUNCEMENT id="1">
+		<ANNOUNCE text="放送ID 1が読み込まれました。" waitsec="5" />
+		<ANNOUNCE text="このように文章をいくつも保存できます。" waitsec="0" />
+		<ANNOUNCE text="NULL" waitsec="60" />
+	</ANNOUNCEMENT>
+</XML>

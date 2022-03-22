@@ -1,0 +1,32 @@
+<XML>
+	<SERVER>
+		<PORT>6000</PORT>
+		<UDPPORT>7777</UDPPORT>
+		<MAXPLAYERS>1000</MAXPLAYERS>
+		<NAME>MatchServer1</NAME>
+		<SURVIVAL>1</SURVIVAL>
+		<DUELTOURNAMENT>1</DUELTOURNAMENT>
+		<SERVERMODE>quest</SERVERMODE>	<!-- match, clan, quest, both. -->
+	</SERVER>
+
+	<DATABASE>	<!-- PostgreSQL connection info. -->
+		<USERNAME>postgres</USERNAME>
+		<PASSWORD>password</PASSWORD>
+		<DSN>gunzdb</DSN>
+	</DATABASE>
+
+	<AGENT>
+		<TRUSTED_IP>127.0.0.1</TRUSTED_IP>	<!-- Enter valid agent's IP address. -->
+	</AGENT>
+
+	<LOCATOR>
+		<SERVERID>1</SERVERID>
+		<IP>127.0.0.1</IP>
+		<TYPE>quest</TYPE>	<!-- debug, match, clan, quest, event, unknown. -->
+	</LOCATOR>
+
+	<OTHER>
+		<IPBAN>0</IPBAN>	<!-- If this is enabled, will access denied from having banned account users. -->
+		<IPACCOUNT>0</IPACCOUNT>	<!-- Use IP as ID. -->
+	</OTHER>
+</XML>
